@@ -551,8 +551,6 @@ Wire Wire Line
 Connection ~ 6400 900 
 Wire Wire Line
 	6700 1600 6940 1600
-Text GLabel 6010 1600 2    50   Input ~ 0
-GND_1
 Wire Wire Line
 	5410 1100 5410 960 
 $Comp
@@ -589,6 +587,91 @@ Wire Wire Line
 	6400 900  6400 710 
 Text GLabel 6400 710  0    50   Input ~ 0
 Vcc_1
+$Comp
+L Device:R R?
+U 1 1 62AC1411
+P 6120 1770
+F 0 "R?" H 6190 1816 50  0000 L CNN
+F 1 "2K2" H 6190 1725 50  0000 L CNN
+F 2 "" V 6050 1770 50  0001 C CNN
+F 3 "~" H 6120 1770 50  0001 C CNN
+	1    6120 1770
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6700 1200 7020 1200
+	6120 1920 6120 2030
+Text GLabel 6120 2030 0    50   Input ~ 0
+GND_1
+Wire Wire Line
+	6120 1600 6120 1620
+Wire Wire Line
+	6010 1600 6120 1600
+Wire Wire Line
+	6940 1600 7300 1600
+Connection ~ 6940 1600
+$Comp
+L Transistor_BJT:BC556 Q?
+U 1 1 62AE7003
+P 5820 5290
+F 0 "Q?" H 5730 5160 50  0000 L CNN
+F 1 "BC556" H 5930 5100 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6020 5215 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 5820 5290 50  0001 L CNN
+	1    5820 5290
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62AE7009
+P 6020 5140
+F 0 "R?" H 6090 5186 50  0000 L CNN
+F 1 "7R" H 6090 5095 50  0000 L CNN
+F 2 "" V 5950 5140 50  0001 C CNN
+F 3 "~" H 6020 5140 50  0001 C CNN
+	1    6020 5140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5720 5090 5720 4990
+Wire Wire Line
+	5720 4990 6020 4990
+Connection ~ 5720 4990
+$Comp
+L Device:R R?
+U 1 1 62AE7021
+P 6020 5440
+F 0 "R?" H 5860 5470 50  0000 L CNN
+F 1 "10K" H 5820 5390 50  0000 L CNN
+F 2 "" V 5950 5440 50  0001 C CNN
+F 3 "~" H 6020 5440 50  0001 C CNN
+	1    6020 5440
+	1    0    0    -1  
+$EndComp
+Text GLabel 5720 5990 0    50   Input ~ 0
+GND_1
+Wire Wire Line
+	5720 4990 5720 4800
+Text GLabel 5720 4800 0    50   Input ~ 0
+Vcc_1
+$Comp
+L Device:R R?
+U 1 1 62AE7034
+P 5720 5640
+F 0 "R?" H 5790 5686 50  0000 L CNN
+F 1 "2K2" H 5790 5595 50  0000 L CNN
+F 2 "" V 5650 5640 50  0001 C CNN
+F 3 "~" H 5720 5640 50  0001 C CNN
+	1    5720 5640
+	1    0    0    -1  
+$EndComp
+Connection ~ 6020 5290
+Wire Wire Line
+	5720 5790 5720 5840
+Wire Wire Line
+	6020 5590 6020 5840
+Wire Wire Line
+	5720 5840 6020 5840
+Wire Wire Line
+	5720 5840 5720 5990
+Connection ~ 5720 5840
 $EndSCHEMATC
