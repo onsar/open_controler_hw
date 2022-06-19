@@ -254,50 +254,6 @@ Wire Wire Line
 	8110 2800 8110 2950
 $Comp
 L Device:R R?
-U 1 1 61E4392B
-P 8110 3790
-F 0 "R?" H 8180 3836 50  0000 L CNN
-F 1 "R" H 8180 3745 50  0000 L CNN
-F 2 "" V 8040 3790 50  0001 C CNN
-F 3 "~" H 8110 3790 50  0001 C CNN
-	1    8110 3790
-	1    0    0    -1  
-$EndComp
-Text GLabel 8110 3490 0    50   Input ~ 0
-5v
-Wire Wire Line
-	7900 4030 8110 4030
-Wire Wire Line
-	8110 3940 8110 4030
-Connection ~ 8110 4030
-Wire Wire Line
-	8110 4030 8360 4030
-Wire Wire Line
-	8110 3490 8110 3640
-$Comp
-L Device:R R?
-U 1 1 61E47FF4
-P 8110 4490
-F 0 "R?" H 8180 4536 50  0000 L CNN
-F 1 "R" H 8180 4445 50  0000 L CNN
-F 2 "" V 8040 4490 50  0001 C CNN
-F 3 "~" H 8110 4490 50  0001 C CNN
-	1    8110 4490
-	1    0    0    -1  
-$EndComp
-Text GLabel 8110 4190 0    50   Input ~ 0
-5v
-Wire Wire Line
-	7900 4730 8110 4730
-Wire Wire Line
-	8110 4640 8110 4730
-Connection ~ 8110 4730
-Wire Wire Line
-	8110 4730 8360 4730
-Wire Wire Line
-	8110 4190 8110 4340
-$Comp
-L Device:R R?
 U 1 1 61E9E58E
 P 9720 1710
 F 0 "R?" H 9790 1756 50  0000 L CNN
@@ -362,50 +318,6 @@ Wire Wire Line
 	9720 3340 9970 3340
 Wire Wire Line
 	9720 2800 9720 2950
-$Comp
-L Device:R R?
-U 1 1 61E9E5B2
-P 9720 3790
-F 0 "R?" H 9790 3836 50  0000 L CNN
-F 1 "R" H 9790 3745 50  0000 L CNN
-F 2 "" V 9650 3790 50  0001 C CNN
-F 3 "~" H 9720 3790 50  0001 C CNN
-	1    9720 3790
-	1    0    0    -1  
-$EndComp
-Text GLabel 9720 3490 0    50   Input ~ 0
-5v
-Wire Wire Line
-	9510 4030 9720 4030
-Wire Wire Line
-	9720 3940 9720 4030
-Connection ~ 9720 4030
-Wire Wire Line
-	9720 4030 9970 4030
-Wire Wire Line
-	9720 3490 9720 3640
-$Comp
-L Device:R R?
-U 1 1 61E9E5BE
-P 9720 4490
-F 0 "R?" H 9790 4536 50  0000 L CNN
-F 1 "R" H 9790 4445 50  0000 L CNN
-F 2 "" V 9650 4490 50  0001 C CNN
-F 3 "~" H 9720 4490 50  0001 C CNN
-	1    9720 4490
-	1    0    0    -1  
-$EndComp
-Text GLabel 9720 4190 0    50   Input ~ 0
-5v
-Wire Wire Line
-	9510 4730 9720 4730
-Wire Wire Line
-	9720 4640 9720 4730
-Connection ~ 9720 4730
-Wire Wire Line
-	9720 4730 9970 4730
-Wire Wire Line
-	9720 4190 9720 4340
 $Comp
 L Connector_Generic:Conn_01x10 J?
 U 1 1 61F5122B
@@ -482,70 +394,28 @@ $Comp
 L Isolator:PC817 U?
 U 1 1 620A4B68
 P 5710 1500
-F 0 "U?" H 5710 1825 50  0000 C CNN
-F 1 "PC817" H 5710 1734 50  0000 C CNN
+F 0 "U?" H 5610 1800 50  0000 C CNN
+F 1 "PC817" H 5680 1710 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 5510 1300 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 5710 1500 50  0001 L CNN
 	1    5710 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L mosfet:SSM3J338 Q?
-U 1 1 625E9B49
-P 6600 1400
-F 0 "Q?" H 6805 1354 50  0000 L CNN
-F 1 "SSM3J338" H 6805 1445 50  0000 L CNN
-F 2 "" H 6800 1500 50  0001 C CNN
-F 3 "~" H 6600 1400 50  0001 C CNN
-	1    6600 1400
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:BC556 Q?
-U 1 1 62615C5C
-P 6500 1200
-F 0 "Q?" H 6410 1070 50  0000 L CNN
-F 1 "BC556" H 6610 1010 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6700 1125 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 6500 1200 50  0001 L CNN
-	1    6500 1200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 626246A4
 P 6700 1050
 F 0 "R?" H 6770 1096 50  0000 L CNN
-F 1 "7R" H 6770 1005 50  0000 L CNN
+F 1 "4R" H 6770 1005 50  0000 L CNN
 F 2 "" V 6630 1050 50  0001 C CNN
 F 3 "~" H 6700 1050 50  0001 C CNN
 	1    6700 1050
 	1    0    0    -1  
 $EndComp
-Connection ~ 6700 1200
 Wire Wire Line
 	6400 1000 6400 900 
 Wire Wire Line
 	6400 900  6700 900 
-$Comp
-L Device:R R?
-U 1 1 62643E6D
-P 6120 1250
-F 0 "R?" H 6190 1296 50  0000 L CNN
-F 1 "2K2" H 6190 1205 50  0000 L CNN
-F 2 "" V 6050 1250 50  0001 C CNN
-F 3 "~" H 6120 1250 50  0001 C CNN
-	1    6120 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6010 1400 6120 1400
-Connection ~ 6400 1400
-Connection ~ 6120 1400
-Wire Wire Line
-	6120 1400 6400 1400
-Wire Wire Line
-	6120 1100 6120 900 
 Wire Wire Line
 	6120 900  6400 900 
 Connection ~ 6400 900 
@@ -564,7 +434,6 @@ F 3 "~" H 6700 1750 50  0001 C CNN
 	1    6700 1750
 	1    0    0    -1  
 $EndComp
-Connection ~ 6700 1600
 $Comp
 L Device:C C?
 U 1 1 626EFDE8
@@ -579,28 +448,10 @@ $EndComp
 Wire Wire Line
 	6700 1900 6940 1900
 Wire Wire Line
-	6700 1900 6700 2030
-Connection ~ 6700 1900
-Text GLabel 6700 2030 0    50   Input ~ 0
-GND_1
-Wire Wire Line
 	6400 900  6400 710 
 Text GLabel 6400 710  0    50   Input ~ 0
 Vcc_1
-$Comp
-L Device:R R?
-U 1 1 62AC1411
-P 6120 1770
-F 0 "R?" H 6190 1816 50  0000 L CNN
-F 1 "2K2" H 6190 1725 50  0000 L CNN
-F 2 "" V 6050 1770 50  0001 C CNN
-F 3 "~" H 6120 1770 50  0001 C CNN
-	1    6120 1770
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6120 1920 6120 2030
-Text GLabel 6120 2030 0    50   Input ~ 0
+Text GLabel 6420 2260 0    50   Input ~ 0
 GND_1
 Wire Wire Line
 	6120 1600 6120 1620
@@ -612,66 +463,258 @@ Connection ~ 6940 1600
 $Comp
 L Transistor_BJT:BC556 Q?
 U 1 1 62AE7003
-P 5820 5290
-F 0 "Q?" H 5730 5160 50  0000 L CNN
-F 1 "BC556" H 5930 5100 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6020 5215 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 5820 5290 50  0001 L CNN
-	1    5820 5290
+P 12590 1090
+F 0 "Q?" H 12500 960 50  0000 L CNN
+F 1 "BC556" H 12700 900 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 12790 1015 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 12590 1090 50  0001 L CNN
+	1    12590 1090
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 62AE7009
-P 6020 5140
-F 0 "R?" H 6090 5186 50  0000 L CNN
-F 1 "7R" H 6090 5095 50  0000 L CNN
-F 2 "" V 5950 5140 50  0001 C CNN
-F 3 "~" H 6020 5140 50  0001 C CNN
-	1    6020 5140
+P 12790 940
+F 0 "R?" H 12890 990 50  0000 L CNN
+F 1 "9R" H 12890 890 50  0000 L CNN
+F 2 "" V 12720 940 50  0001 C CNN
+F 3 "~" H 12790 940 50  0001 C CNN
+	1    12790 940 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5720 5090 5720 4990
+	12490 890  12490 790 
 Wire Wire Line
-	5720 4990 6020 4990
-Connection ~ 5720 4990
+	12490 790  12790 790 
+Connection ~ 12490 790 
 $Comp
 L Device:R R?
 U 1 1 62AE7021
-P 6020 5440
-F 0 "R?" H 5860 5470 50  0000 L CNN
-F 1 "10K" H 5820 5390 50  0000 L CNN
-F 2 "" V 5950 5440 50  0001 C CNN
-F 3 "~" H 6020 5440 50  0001 C CNN
-	1    6020 5440
+P 12790 1240
+F 0 "R?" H 12890 1260 50  0000 L CNN
+F 1 "xxK" H 12900 1170 50  0000 L CNN
+F 2 "" V 12720 1240 50  0001 C CNN
+F 3 "~" H 12790 1240 50  0001 C CNN
+	1    12790 1240
 	1    0    0    -1  
 $EndComp
-Text GLabel 5720 5990 0    50   Input ~ 0
+Text GLabel 12490 1790 0    50   Input ~ 0
 GND_1
 Wire Wire Line
-	5720 4990 5720 4800
-Text GLabel 5720 4800 0    50   Input ~ 0
+	12490 790  12490 600 
+Text GLabel 12490 600  0    50   Input ~ 0
 Vcc_1
 $Comp
 L Device:R R?
 U 1 1 62AE7034
-P 5720 5640
-F 0 "R?" H 5790 5686 50  0000 L CNN
-F 1 "2K2" H 5790 5595 50  0000 L CNN
-F 2 "" V 5650 5640 50  0001 C CNN
-F 3 "~" H 5720 5640 50  0001 C CNN
-	1    5720 5640
+P 12490 1440
+F 0 "R?" H 12240 1510 50  0000 L CNN
+F 1 "120R" H 12220 1410 50  0000 L CNN
+F 2 "" V 12420 1440 50  0001 C CNN
+F 3 "~" H 12490 1440 50  0001 C CNN
+	1    12490 1440
 	1    0    0    -1  
 $EndComp
-Connection ~ 6020 5290
+Connection ~ 12790 1090
 Wire Wire Line
-	5720 5790 5720 5840
+	12490 1590 12490 1640
 Wire Wire Line
-	6020 5590 6020 5840
+	12790 1390 12790 1640
 Wire Wire Line
-	5720 5840 6020 5840
+	12490 1640 12790 1640
 Wire Wire Line
-	5720 5840 5720 5990
-Connection ~ 5720 5840
+	12490 1640 12490 1790
+Connection ~ 12490 1640
+Wire Wire Line
+	6010 1400 6120 1400
+$Comp
+L Device:R R?
+U 1 1 62AD10DF
+P 6120 1770
+F 0 "R?" H 5910 1770 50  0000 L CNN
+F 1 "2K2" H 5910 1700 50  0000 L CNN
+F 2 "" V 6050 1770 50  0001 C CNN
+F 3 "~" H 6120 1770 50  0001 C CNN
+	1    6120 1770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6120 1010 6120 900 
+Wire Wire Line
+	6120 1310 6120 1400
+Connection ~ 6120 1400
+Wire Wire Line
+	6120 1400 6400 1400
+Wire Wire Line
+	6120 1920 6120 2070
+Wire Wire Line
+	6120 2070 6420 2070
+Wire Wire Line
+	6700 2070 6700 1900
+Connection ~ 6700 1900
+Wire Wire Line
+	6700 1900 6700 1890
+Wire Wire Line
+	6420 2070 6420 2260
+Connection ~ 6420 2070
+Wire Wire Line
+	6420 2070 6700 2070
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 62AE389F
+P 6500 1200
+F 0 "Q?" H 6420 1070 50  0000 L CNN
+F 1 "BC856" H 6350 1010 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6700 1125 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 6500 1200 50  0001 L CNN
+	1    6500 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:BZT52Bxx D?
+U 1 1 62ADCD26
+P 6120 1160
+F 0 "D?" V 6074 1239 50  0000 L CNN
+F 1 "BZT52Bxx" V 5990 780 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6120 985 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 6120 1160 50  0001 C CNN
+	1    6120 1160
+	0    1    1    0   
+$EndComp
+Text Notes 8010 950  0    50   ~ 0
+Estabilidad del voltage VGS\n=======================\nCener de 10\n0.00045 A\npotencia de la resistencia de 2k2\n24 *24/2200 = 0.262\n
+$Comp
+L Transistor_FET:VP0610T Q?
+U 1 1 62AF02AD
+P 6600 1400
+F 0 "Q?" H 6805 1446 50  0000 L CNN
+F 1 "VP0610T" H 6805 1355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6800 1325 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 6600 1400 50  0001 L CNN
+	1    6600 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 1400
+Connection ~ 6700 1600
+Connection ~ 6700 1200
+Text GLabel 12510 2660 0    50   Input ~ 0
+GPIO_23
+$Comp
+L Device:R R?
+U 1 1 62B15932
+P 12510 2950
+F 0 "R?" H 12360 3000 50  0000 L CNN
+F 1 "2K2" H 12310 2910 50  0000 L CNN
+F 2 "" V 12440 2950 50  0001 C CNN
+F 3 "~" H 12510 2950 50  0001 C CNN
+	1    12510 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B15938
+P 12510 3300
+F 0 "#PWR?" H 12510 3050 50  0001 C CNN
+F 1 "GND" H 12515 3127 50  0000 C CNN
+F 2 "" H 12510 3300 50  0001 C CNN
+F 3 "" H 12510 3300 50  0001 C CNN
+	1    12510 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 62B1593E
+P 12810 3200
+F 0 "U?" H 12810 3525 50  0000 C CNN
+F 1 "PC817" H 12810 3434 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 12610 3000 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 12810 3200 50  0001 L CNN
+	1    12810 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13220 2600 13500 2600
+Wire Wire Line
+	12510 2800 12510 2660
+Wire Wire Line
+	13500 2600 13500 2410
+Text GLabel 13500 2410 0    50   Input ~ 0
+Vcc_1
+Text GLabel 13520 3960 0    50   Input ~ 0
+GND_1
+Wire Wire Line
+	13220 3300 13220 3320
+Wire Wire Line
+	13110 3300 13220 3300
+Wire Wire Line
+	13110 3100 13220 3100
+$Comp
+L Device:R R?
+U 1 1 62B15965
+P 13220 3470
+F 0 "R?" H 13010 3470 50  0000 L CNN
+F 1 "2K2" H 13010 3400 50  0000 L CNN
+F 2 "" V 13150 3470 50  0001 C CNN
+F 3 "~" H 13220 3470 50  0001 C CNN
+	1    13220 3470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13220 2710 13220 2600
+Wire Wire Line
+	13220 3010 13220 3100
+Connection ~ 13220 3100
+Wire Wire Line
+	13220 3100 13500 3100
+Wire Wire Line
+	13220 3620 13220 3770
+Wire Wire Line
+	13220 3770 13520 3770
+Wire Wire Line
+	13520 3770 13520 3960
+$Comp
+L Diode:BZT52Bxx D?
+U 1 1 62B1597D
+P 13220 2860
+F 0 "D?" V 13174 2939 50  0000 L CNN
+F 1 "BZT52Bxx" V 13360 2430 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 13220 2685 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 13220 2860 50  0001 C CNN
+	1    13220 2860
+	0    1    1    0   
+$EndComp
+Text Notes 12260 4470 0    50   ~ 0
+La resistencia elevada para que el consumo , en condiciones normales de trabajo, sea bajo\nResistencia baja para asegurar la estabilidad del circuito y eliminar efectos de ruido\nEl Zener puede ir desde 3,5V a 20V que es el maximo de sopore de jmosfet
+Text GLabel 4080 1240 0    50   Input ~ 0
+GPIO_17
+Text GLabel 4100 1450 0    50   Input ~ 0
+GPIO_22
+Text GLabel 4060 2080 0    50   Input ~ 0
+GPIO_5
+Text GLabel 4070 2190 0    50   Input ~ 0
+GPIO_6
+Text GLabel 4090 2550 0    50   Input ~ 0
+GPIO_19
+Text GLabel 4080 1570 0    50   Input ~ 0
+GPIO_23
+Text GLabel 4090 1670 0    50   Input ~ 0
+GPIO_24
+Text GLabel 4100 1790 0    50   Input ~ 0
+GPIO_25
+Text GLabel 4070 2710 0    50   Input ~ 0
+GPIO_16
+Text GLabel 4120 2860 0    50   Input ~ 0
+GPIO_20
+Text GLabel 4150 3010 0    50   Input ~ 0
+GPIO_21
+Text GLabel 4110 2460 0    50   Input ~ 0
+GPIO_13
+Text GLabel 4080 1340 0    50   Input ~ 0
+GPIO_18
+Text GLabel 4040 1890 0    50   Input ~ 0
+GPIO_8
+Text GLabel 4050 1970 0    50   Input ~ 0
+GPIO_7
+Text GLabel 4090 2340 0    50   Input ~ 0
+GPIO_12
 $EndSCHEMATC
