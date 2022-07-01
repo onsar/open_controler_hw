@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R R?
-U 1 1 61E136F4
-P 2520 7160
-F 0 "R?" H 2590 7206 50  0000 L CNN
-F 1 "R" H 2590 7115 50  0000 L CNN
-F 2 "" V 2450 7160 50  0001 C CNN
-F 3 "~" H 2520 7160 50  0001 C CNN
-	1    2520 7160
-	1    0    0    -1  
-$EndComp
-Text GLabel 2520 6860 0    50   Input ~ 0
-5v
 Text GLabel 1090 810  0    50   Input ~ 0
 3v3_1
 Wire Notes Line
@@ -199,492 +186,54 @@ F 3 "~" H 1560 1710 50  0001 C CNN
 	1    1560 1710
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2310 7400 2520 7400
-Wire Wire Line
-	2520 7310 2520 7400
-Connection ~ 2520 7400
-Wire Wire Line
-	2520 7400 2770 7400
-Wire Wire Line
-	2520 6860 2520 7010
-$Comp
-L Device:R R?
-U 1 1 61E2CAB4
-P 4200 7150
-F 0 "R?" H 4270 7196 50  0000 L CNN
-F 1 "R" H 4270 7105 50  0000 L CNN
-F 2 "" V 4130 7150 50  0001 C CNN
-F 3 "~" H 4200 7150 50  0001 C CNN
-	1    4200 7150
-	1    0    0    -1  
-$EndComp
-Text GLabel 4200 6850 0    50   Input ~ 0
-5v
-Wire Wire Line
-	3990 7390 4200 7390
-Wire Wire Line
-	4200 7300 4200 7390
-Connection ~ 4200 7390
-Wire Wire Line
-	4200 7390 4450 7390
-Wire Wire Line
-	4200 6850 4200 7000
-$Comp
-L Device:R R?
-U 1 1 61E4391F
-P 5990 7140
-F 0 "R?" H 6060 7186 50  0000 L CNN
-F 1 "R" H 6060 7095 50  0000 L CNN
-F 2 "" V 5920 7140 50  0001 C CNN
-F 3 "~" H 5990 7140 50  0001 C CNN
-	1    5990 7140
-	1    0    0    -1  
-$EndComp
-Text GLabel 5990 6840 0    50   Input ~ 0
-5v
-Wire Wire Line
-	5780 7380 5990 7380
-Wire Wire Line
-	5990 7290 5990 7380
-Connection ~ 5990 7380
-Wire Wire Line
-	5990 7380 6240 7380
-Wire Wire Line
-	5990 6840 5990 6990
-$Comp
-L Device:R R?
-U 1 1 61E9E58E
-P 1740 7170
-F 0 "R?" H 1810 7216 50  0000 L CNN
-F 1 "R" H 1810 7125 50  0000 L CNN
-F 2 "" V 1670 7170 50  0001 C CNN
-F 3 "~" H 1740 7170 50  0001 C CNN
-	1    1740 7170
-	1    0    0    -1  
-$EndComp
-Text GLabel 1740 6870 0    50   Input ~ 0
-5v
-Wire Wire Line
-	1530 7410 1740 7410
-Wire Wire Line
-	1740 7320 1740 7410
-Connection ~ 1740 7410
-Wire Wire Line
-	1740 7410 1990 7410
-Wire Wire Line
-	1740 6870 1740 7020
-$Comp
-L Device:R R?
-U 1 1 61E9E59A
-P 3420 7160
-F 0 "R?" H 3490 7206 50  0000 L CNN
-F 1 "R" H 3490 7115 50  0000 L CNN
-F 2 "" V 3350 7160 50  0001 C CNN
-F 3 "~" H 3420 7160 50  0001 C CNN
-	1    3420 7160
-	1    0    0    -1  
-$EndComp
-Text GLabel 3420 6860 0    50   Input ~ 0
-5v
-Wire Wire Line
-	3210 7400 3420 7400
-Wire Wire Line
-	3420 7310 3420 7400
-Connection ~ 3420 7400
-Wire Wire Line
-	3420 7400 3670 7400
-Wire Wire Line
-	3420 6860 3420 7010
-$Comp
-L Device:R R?
-U 1 1 61E9E5A6
-P 5210 7150
-F 0 "R?" H 5280 7196 50  0000 L CNN
-F 1 "R" H 5280 7105 50  0000 L CNN
-F 2 "" V 5140 7150 50  0001 C CNN
-F 3 "~" H 5210 7150 50  0001 C CNN
-	1    5210 7150
-	1    0    0    -1  
-$EndComp
-Text GLabel 5210 6850 0    50   Input ~ 0
-5v
-Wire Wire Line
-	5000 7390 5210 7390
-Wire Wire Line
-	5210 7300 5210 7390
-Connection ~ 5210 7390
-Wire Wire Line
-	5210 7390 5460 7390
-Wire Wire Line
-	5210 6850 5210 7000
 $Comp
 L Connector_Generic:Conn_01x10 J?
 U 1 1 61F5122B
-P 8390 1380
-F 0 "J?" H 8470 1372 50  0000 L CNN
-F 1 "Conn_01x10" H 8470 1281 50  0000 L CNN
-F 2 "" H 8390 1380 50  0001 C CNN
-F 3 "~" H 8390 1380 50  0001 C CNN
-	1    8390 1380
+P 4130 1700
+F 0 "J?" H 4210 1692 50  0000 L CNN
+F 1 "d_o_01x10" H 4080 2230 50  0000 L CNN
+F 2 "" H 4130 1700 50  0001 C CNN
+F 3 "~" H 4130 1700 50  0001 C CNN
+	1    4130 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J?
 U 1 1 61F55EAF
-P 9590 1390
-F 0 "J?" H 9670 1382 50  0000 L CNN
-F 1 "Conn_01x10" H 9670 1291 50  0000 L CNN
-F 2 "" H 9590 1390 50  0001 C CNN
-F 3 "~" H 9590 1390 50  0001 C CNN
-	1    9590 1390
+P 5000 1700
+F 0 "J?" H 5080 1692 50  0000 L CNN
+F 1 "d_i_01x10" H 4940 2230 50  0000 L CNN
+F 2 "" H 5000 1700 50  0001 C CNN
+F 3 "~" H 5000 1700 50  0001 C CNN
+	1    5000 1700
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	5510 7610 5520 7610
-Text GLabel 6160 3230 0    50   Input ~ 0
-GPIO_23
-$Comp
-L Device:R R?
-U 1 1 620A4B51
-P 6160 3520
-F 0 "R?" H 6010 3570 50  0000 L CNN
-F 1 "2K2" H 5960 3480 50  0000 L CNN
-F 2 "" V 6090 3520 50  0001 C CNN
-F 3 "~" H 6160 3520 50  0001 C CNN
-	1    6160 3520
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 620A4B5B
-P 6160 3870
-F 0 "#PWR?" H 6160 3620 50  0001 C CNN
-F 1 "GND" H 6165 3697 50  0000 C CNN
-F 2 "" H 6160 3870 50  0001 C CNN
-F 3 "" H 6160 3870 50  0001 C CNN
-	1    6160 3870
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 622B6D5E
-P 7190 1000
-F 0 "J?" H 7270 992 50  0000 L CNN
-F 1 "Conn_01x02" H 7270 901 50  0000 L CNN
-F 2 "" H 7190 1000 50  0001 C CNN
-F 3 "~" H 7190 1000 50  0001 C CNN
-	1    7190 1000
+P 3340 1320
+F 0 "J?" H 3420 1312 50  0000 L CNN
+F 1 "Conn_01x02" H 2970 1510 50  0000 L CNN
+F 2 "" H 3340 1320 50  0001 C CNN
+F 3 "~" H 3340 1320 50  0001 C CNN
+	1    3340 1320
 	1    0    0    -1  
 $EndComp
-Text GLabel 6990 1000 0    50   Input ~ 0
+Text GLabel 3140 1320 0    50   Input ~ 0
 5v
 $Comp
 L power:GND #PWR?
 U 1 1 624175DB
-P 6990 1100
-F 0 "#PWR?" H 6990 850 50  0001 C CNN
-F 1 "GND" H 6995 927 50  0000 C CNN
-F 2 "" H 6990 1100 50  0001 C CNN
-F 3 "" H 6990 1100 50  0001 C CNN
-	1    6990 1100
+P 3140 1420
+F 0 "#PWR?" H 3140 1170 50  0001 C CNN
+F 1 "GND" H 3145 1247 50  0000 C CNN
+F 2 "" H 3140 1420 50  0001 C CNN
+F 3 "" H 3140 1420 50  0001 C CNN
+	1    3140 1420
 	1    0    0    -1  
 $EndComp
-$Comp
-L Isolator:PC817 U?
-U 1 1 620A4B68
-P 6460 3770
-F 0 "U?" H 6360 4070 50  0000 C CNN
-F 1 "PC817" H 6430 3980 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 6260 3570 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6460 3770 50  0001 L CNN
-	1    6460 3770
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 626246A4
-P 7450 3320
-F 0 "R?" H 7520 3366 50  0000 L CNN
-F 1 "4R" H 7520 3275 50  0000 L CNN
-F 2 "" V 7380 3320 50  0001 C CNN
-F 3 "~" H 7450 3320 50  0001 C CNN
-	1    7450 3320
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 3270 7150 3170
-Wire Wire Line
-	7150 3170 7450 3170
-Wire Wire Line
-	6870 3170 7150 3170
-Connection ~ 7150 3170
-Wire Wire Line
-	7450 3870 7690 3870
-Wire Wire Line
-	6160 3370 6160 3230
-$Comp
-L Device:R R?
-U 1 1 626EED4D
-P 7450 4020
-F 0 "R?" H 7290 4050 50  0000 L CNN
-F 1 "10K" H 7250 3970 50  0000 L CNN
-F 2 "" V 7380 4020 50  0001 C CNN
-F 3 "~" H 7450 4020 50  0001 C CNN
-	1    7450 4020
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 626EFDE8
-P 7690 4020
-F 0 "C?" H 7805 4066 50  0000 L CNN
-F 1 "C" H 7805 3975 50  0000 L CNN
-F 2 "" H 7728 3870 50  0001 C CNN
-F 3 "~" H 7690 4020 50  0001 C CNN
-	1    7690 4020
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 4170 7690 4170
-Wire Wire Line
-	7150 3170 7150 2980
-Text GLabel 7150 2980 0    50   Input ~ 0
-Vcc_1
-Text GLabel 7170 4530 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	6870 3870 6870 3890
-Wire Wire Line
-	6760 3870 6870 3870
-Wire Wire Line
-	7690 3870 8050 3870
-Connection ~ 7690 3870
-$Comp
-L Transistor_BJT:BC556 Q?
-U 1 1 62AE7003
-P 12590 1090
-F 0 "Q?" H 12500 960 50  0000 L CNN
-F 1 "BC556" H 12700 900 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 12790 1015 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 12590 1090 50  0001 L CNN
-	1    12590 1090
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62AE7009
-P 12790 940
-F 0 "R?" H 12890 990 50  0000 L CNN
-F 1 "9R" H 12890 890 50  0000 L CNN
-F 2 "" V 12720 940 50  0001 C CNN
-F 3 "~" H 12790 940 50  0001 C CNN
-	1    12790 940 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12490 890  12490 790 
-Wire Wire Line
-	12490 790  12790 790 
-Connection ~ 12490 790 
-$Comp
-L Device:R R?
-U 1 1 62AE7021
-P 12790 1240
-F 0 "R?" H 12890 1260 50  0000 L CNN
-F 1 "xxK" H 12900 1170 50  0000 L CNN
-F 2 "" V 12720 1240 50  0001 C CNN
-F 3 "~" H 12790 1240 50  0001 C CNN
-	1    12790 1240
-	1    0    0    -1  
-$EndComp
-Text GLabel 12490 1790 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	12490 790  12490 600 
-Text GLabel 12490 600  0    50   Input ~ 0
-Vcc_1
-$Comp
-L Device:R R?
-U 1 1 62AE7034
-P 12490 1440
-F 0 "R?" H 12240 1510 50  0000 L CNN
-F 1 "120R" H 12220 1410 50  0000 L CNN
-F 2 "" V 12420 1440 50  0001 C CNN
-F 3 "~" H 12490 1440 50  0001 C CNN
-	1    12490 1440
-	1    0    0    -1  
-$EndComp
-Connection ~ 12790 1090
-Wire Wire Line
-	12490 1590 12490 1640
-Wire Wire Line
-	12790 1390 12790 1640
-Wire Wire Line
-	12490 1640 12790 1640
-Wire Wire Line
-	12490 1640 12490 1790
-Connection ~ 12490 1640
-Wire Wire Line
-	6760 3670 6870 3670
-$Comp
-L Device:R R?
-U 1 1 62AD10DF
-P 6870 4040
-F 0 "R?" H 6660 4040 50  0000 L CNN
-F 1 "2K2" H 6660 3970 50  0000 L CNN
-F 2 "" V 6800 4040 50  0001 C CNN
-F 3 "~" H 6870 4040 50  0001 C CNN
-	1    6870 4040
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6870 3280 6870 3170
-Wire Wire Line
-	6870 3580 6870 3670
-Connection ~ 6870 3670
-Wire Wire Line
-	6870 3670 7150 3670
-Wire Wire Line
-	6870 4190 6870 4340
-Wire Wire Line
-	6870 4340 7170 4340
-Wire Wire Line
-	7450 4340 7450 4170
-Connection ~ 7450 4170
-Wire Wire Line
-	7450 4170 7450 4160
-Wire Wire Line
-	7170 4340 7170 4530
-Connection ~ 7170 4340
-Wire Wire Line
-	7170 4340 7450 4340
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 62AE389F
-P 7250 3470
-F 0 "Q?" H 7170 3340 50  0000 L CNN
-F 1 "BC856" H 7100 3280 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7450 3395 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 7250 3470 50  0001 L CNN
-	1    7250 3470
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62ADCD26
-P 6870 3430
-F 0 "D?" V 6824 3509 50  0000 L CNN
-F 1 "BZT52Bxx" V 6740 3050 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6870 3255 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 6870 3430 50  0001 C CNN
-	1    6870 3430
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:VP0610T Q?
-U 1 1 62AF02AD
-P 7350 3670
-F 0 "Q?" H 7555 3716 50  0000 L CNN
-F 1 "VP0610T" H 7555 3625 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 3595 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 7350 3670 50  0001 L CNN
-	1    7350 3670
-	1    0    0    -1  
-$EndComp
-Connection ~ 7150 3670
-Connection ~ 7450 3870
-Connection ~ 7450 3470
-Text GLabel 12510 2660 0    50   Input ~ 0
-GPIO_23
-$Comp
-L Device:R R?
-U 1 1 62B15932
-P 12510 2950
-F 0 "R?" H 12360 3000 50  0000 L CNN
-F 1 "2K2" H 12310 2910 50  0000 L CNN
-F 2 "" V 12440 2950 50  0001 C CNN
-F 3 "~" H 12510 2950 50  0001 C CNN
-	1    12510 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62B15938
-P 12510 3300
-F 0 "#PWR?" H 12510 3050 50  0001 C CNN
-F 1 "GND" H 12515 3127 50  0000 C CNN
-F 2 "" H 12510 3300 50  0001 C CNN
-F 3 "" H 12510 3300 50  0001 C CNN
-	1    12510 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC817 U?
-U 1 1 62B1593E
-P 12810 3200
-F 0 "U?" H 12810 3525 50  0000 C CNN
-F 1 "PC817" H 12810 3434 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 12610 3000 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 12810 3200 50  0001 L CNN
-	1    12810 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13220 2600 13500 2600
-Wire Wire Line
-	12510 2800 12510 2660
-Wire Wire Line
-	13500 2600 13500 2410
-Text GLabel 13500 2410 0    50   Input ~ 0
-Vcc_1
-Text GLabel 13520 3960 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	13220 3300 13220 3320
-Wire Wire Line
-	13110 3300 13220 3300
-Wire Wire Line
-	13110 3100 13220 3100
-$Comp
-L Device:R R?
-U 1 1 62B15965
-P 13220 3470
-F 0 "R?" H 13010 3470 50  0000 L CNN
-F 1 "2K2" H 13010 3400 50  0000 L CNN
-F 2 "" V 13150 3470 50  0001 C CNN
-F 3 "~" H 13220 3470 50  0001 C CNN
-	1    13220 3470
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13220 2710 13220 2600
-Wire Wire Line
-	13220 3010 13220 3100
-Connection ~ 13220 3100
-Wire Wire Line
-	13220 3100 13500 3100
-Wire Wire Line
-	13220 3620 13220 3770
-Wire Wire Line
-	13220 3770 13520 3770
-Wire Wire Line
-	13520 3770 13520 3960
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62B1597D
-P 13220 2860
-F 0 "D?" V 13174 2939 50  0000 L CNN
-F 1 "BZT52Bxx" V 13360 2430 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 13220 2685 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 13220 2860 50  0001 C CNN
-	1    13220 2860
-	0    1    1    0   
-$EndComp
-Text Notes 12260 4470 0    50   ~ 0
-La resistencia elevada para que el consumo , en condiciones normales de trabajo, sea bajo\nResistencia baja para asegurar la estabilidad del circuito y eliminar efectos de ruido\nEl Zener puede ir desde 3,5V a 20V que es el maximo de sopore de jmosfet
-Text GLabel -600 880  0    50   Input ~ 0
-GPIO_17
 Text GLabel -600 1080 0    50   Input ~ 0
 GPIO_22
 Text GLabel -600 1480 0    50   Input ~ 0
@@ -713,1152 +262,1446 @@ Text GLabel -600 1680 0    50   Input ~ 0
 GPIO_12
 Wire Notes Line
 	-600 790  -600 2240
-Text GLabel 8710 3230 0    50   Input ~ 0
-GPIO_23
-$Comp
-L Device:R R?
-U 1 1 62C43B0C
-P 8710 3520
-F 0 "R?" H 8560 3570 50  0000 L CNN
-F 1 "2K2" H 8510 3480 50  0000 L CNN
-F 2 "" V 8640 3520 50  0001 C CNN
-F 3 "~" H 8710 3520 50  0001 C CNN
-	1    8710 3520
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62C43B12
-P 8710 3870
-F 0 "#PWR?" H 8710 3620 50  0001 C CNN
-F 1 "GND" H 8715 3697 50  0000 C CNN
-F 2 "" H 8710 3870 50  0001 C CNN
-F 3 "" H 8710 3870 50  0001 C CNN
-	1    8710 3870
-	1    0    0    -1  
-$EndComp
-$Comp
-L Isolator:PC817 U?
-U 1 1 62C43B18
-P 9010 3770
-F 0 "U?" H 8910 4070 50  0000 C CNN
-F 1 "PC817" H 8980 3980 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 8810 3570 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 9010 3770 50  0001 L CNN
-	1    9010 3770
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62C43B1E
-P 10000 3320
-F 0 "R?" H 10070 3366 50  0000 L CNN
-F 1 "4R" H 10070 3275 50  0000 L CNN
-F 2 "" V 9930 3320 50  0001 C CNN
-F 3 "~" H 10000 3320 50  0001 C CNN
-	1    10000 3320
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 3270 9700 3170
-Wire Wire Line
-	9700 3170 10000 3170
-Wire Wire Line
-	9420 3170 9700 3170
-Connection ~ 9700 3170
-Wire Wire Line
-	10000 3870 10240 3870
-Wire Wire Line
-	8710 3370 8710 3230
-$Comp
-L Device:R R?
-U 1 1 62C43B2A
-P 10000 4020
-F 0 "R?" H 9840 4050 50  0000 L CNN
-F 1 "10K" H 9800 3970 50  0000 L CNN
-F 2 "" V 9930 4020 50  0001 C CNN
-F 3 "~" H 10000 4020 50  0001 C CNN
-	1    10000 4020
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62C43B30
-P 10240 4020
-F 0 "C?" H 10355 4066 50  0000 L CNN
-F 1 "C" H 10355 3975 50  0000 L CNN
-F 2 "" H 10278 3870 50  0001 C CNN
-F 3 "~" H 10240 4020 50  0001 C CNN
-	1    10240 4020
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 4170 10240 4170
-Wire Wire Line
-	9700 3170 9700 2980
-Text GLabel 9700 2980 0    50   Input ~ 0
-Vcc_1
-Text GLabel 9720 4530 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	9420 3870 9420 3890
-Wire Wire Line
-	9310 3870 9420 3870
-Wire Wire Line
-	10240 3870 10600 3870
-Connection ~ 10240 3870
-Wire Wire Line
-	9310 3670 9420 3670
-$Comp
-L Device:R R?
-U 1 1 62C43B3F
-P 9420 4040
-F 0 "R?" H 9210 4040 50  0000 L CNN
-F 1 "2K2" H 9210 3970 50  0000 L CNN
-F 2 "" V 9350 4040 50  0001 C CNN
-F 3 "~" H 9420 4040 50  0001 C CNN
-	1    9420 4040
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9420 3280 9420 3170
-Wire Wire Line
-	9420 3580 9420 3670
-Connection ~ 9420 3670
-Wire Wire Line
-	9420 3670 9700 3670
-Wire Wire Line
-	9420 4190 9420 4340
-Wire Wire Line
-	9420 4340 9720 4340
-Wire Wire Line
-	10000 4340 10000 4170
-Connection ~ 10000 4170
-Wire Wire Line
-	10000 4170 10000 4160
-Wire Wire Line
-	9720 4340 9720 4530
-Connection ~ 9720 4340
-Wire Wire Line
-	9720 4340 10000 4340
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 62C43B51
-P 9800 3470
-F 0 "Q?" H 9720 3340 50  0000 L CNN
-F 1 "BC856" H 9650 3280 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10000 3395 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 9800 3470 50  0001 L CNN
-	1    9800 3470
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62C43B57
-P 9420 3430
-F 0 "D?" V 9374 3509 50  0000 L CNN
-F 1 "BZT52Bxx" V 9290 3050 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 9420 3255 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 9420 3430 50  0001 C CNN
-	1    9420 3430
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:VP0610T Q?
-U 1 1 62C43B5D
-P 9900 3670
-F 0 "Q?" H 10105 3716 50  0000 L CNN
-F 1 "VP0610T" H 10105 3625 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10100 3595 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 9900 3670 50  0001 L CNN
-	1    9900 3670
-	1    0    0    -1  
-$EndComp
-Connection ~ 9700 3670
-Connection ~ 10000 3870
-Connection ~ 10000 3470
-Text GLabel 1160 3230 0    50   Input ~ 0
-GPIO_23
 $Comp
 L Device:R R?
 U 1 1 62C6954B
-P 1160 3520
-F 0 "R?" H 1010 3570 50  0000 L CNN
-F 1 "2K2" H 960 3480 50  0000 L CNN
-F 2 "" V 1090 3520 50  0001 C CNN
-F 3 "~" H 1160 3520 50  0001 C CNN
-	1    1160 3520
+P 6170 1550
+F 0 "R?" H 6020 1600 50  0000 L CNN
+F 1 "2K2" H 5970 1510 50  0000 L CNN
+F 2 "" V 6100 1550 50  0001 C CNN
+F 3 "~" H 6170 1550 50  0001 C CNN
+	1    6170 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 62C69551
-P 1160 3870
-F 0 "#PWR?" H 1160 3620 50  0001 C CNN
-F 1 "GND" H 1165 3697 50  0000 C CNN
-F 2 "" H 1160 3870 50  0001 C CNN
-F 3 "" H 1160 3870 50  0001 C CNN
-	1    1160 3870
+P 6170 1900
+F 0 "#PWR?" H 6170 1650 50  0001 C CNN
+F 1 "GND" H 6175 1727 50  0000 C CNN
+F 2 "" H 6170 1900 50  0001 C CNN
+F 3 "" H 6170 1900 50  0001 C CNN
+	1    6170 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Isolator:PC817 U?
 U 1 1 62C69557
-P 1460 3770
-F 0 "U?" H 1360 4070 50  0000 C CNN
-F 1 "PC817" H 1430 3980 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 1260 3570 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1460 3770 50  0001 L CNN
-	1    1460 3770
+P 6470 1800
+F 0 "U?" H 6370 2100 50  0000 C CNN
+F 1 "PC817" H 6440 2010 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 6270 1600 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6470 1800 50  0001 L CNN
+	1    6470 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 62C6955D
-P 2450 3320
-F 0 "R?" H 2520 3366 50  0000 L CNN
-F 1 "4R" H 2520 3275 50  0000 L CNN
-F 2 "" V 2380 3320 50  0001 C CNN
-F 3 "~" H 2450 3320 50  0001 C CNN
-	1    2450 3320
+P 7460 1350
+F 0 "R?" H 7530 1396 50  0000 L CNN
+F 1 "7R" H 7530 1305 50  0000 L CNN
+F 2 "" V 7390 1350 50  0001 C CNN
+F 3 "~" H 7460 1350 50  0001 C CNN
+	1    7460 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 3270 2150 3170
+	7160 1300 7160 1200
 Wire Wire Line
-	2150 3170 2450 3170
+	7160 1200 7460 1200
 Wire Wire Line
-	1870 3170 2150 3170
-Connection ~ 2150 3170
+	6880 1200 7160 1200
+Connection ~ 7160 1200
 Wire Wire Line
-	2450 3870 2690 3870
+	7460 1900 7700 1900
 Wire Wire Line
-	1160 3370 1160 3230
+	6170 1400 6170 1260
 $Comp
 L Device:R R?
 U 1 1 62C69569
-P 2450 4020
-F 0 "R?" H 2290 4050 50  0000 L CNN
-F 1 "10K" H 2250 3970 50  0000 L CNN
-F 2 "" V 2380 4020 50  0001 C CNN
-F 3 "~" H 2450 4020 50  0001 C CNN
-	1    2450 4020
+P 7460 2050
+F 0 "R?" H 7300 2080 50  0000 L CNN
+F 1 "10K" H 7260 2000 50  0000 L CNN
+F 2 "" V 7390 2050 50  0001 C CNN
+F 3 "~" H 7460 2050 50  0001 C CNN
+	1    7460 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 62C6956F
-P 2690 4020
-F 0 "C?" H 2805 4066 50  0000 L CNN
-F 1 "C" H 2805 3975 50  0000 L CNN
-F 2 "" H 2728 3870 50  0001 C CNN
-F 3 "~" H 2690 4020 50  0001 C CNN
-	1    2690 4020
+P 7700 2050
+F 0 "C?" H 7815 2096 50  0000 L CNN
+F 1 "C" H 7815 2005 50  0000 L CNN
+F 2 "" H 7738 1900 50  0001 C CNN
+F 3 "~" H 7700 2050 50  0001 C CNN
+	1    7700 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 4170 2690 4170
+	7460 2200 7700 2200
 Wire Wire Line
-	2150 3170 2150 2980
-Text GLabel 2150 2980 0    50   Input ~ 0
+	7160 1200 7160 1010
+Text GLabel 7160 1010 0    50   Input ~ 0
 Vcc_1
-Text GLabel 2170 4530 0    50   Input ~ 0
+Text GLabel 7180 2560 0    50   Input ~ 0
 GND_1
 Wire Wire Line
-	1870 3870 1870 3890
+	6880 1900 6880 1920
 Wire Wire Line
-	1760 3870 1870 3870
+	6770 1900 6880 1900
 Wire Wire Line
-	2690 3870 3050 3870
-Connection ~ 2690 3870
+	7700 1900 8060 1900
+Connection ~ 7700 1900
 Wire Wire Line
-	1760 3670 1870 3670
-$Comp
-L Device:R R?
-U 1 1 62C6957E
-P 1870 4040
-F 0 "R?" H 1660 4040 50  0000 L CNN
-F 1 "2K2" H 1660 3970 50  0000 L CNN
-F 2 "" V 1800 4040 50  0001 C CNN
-F 3 "~" H 1870 4040 50  0001 C CNN
-	1    1870 4040
-	1    0    0    -1  
-$EndComp
+	6770 1700 6880 1700
 Wire Wire Line
-	1870 3280 1870 3170
+	6880 1310 6880 1200
 Wire Wire Line
-	1870 3580 1870 3670
-Connection ~ 1870 3670
+	6880 1610 6880 1700
+Connection ~ 6880 1700
 Wire Wire Line
-	1870 3670 2150 3670
+	6880 1700 7160 1700
 Wire Wire Line
-	1870 4190 1870 4340
+	6880 2220 6880 2370
 Wire Wire Line
-	1870 4340 2170 4340
+	6880 2370 7180 2370
 Wire Wire Line
-	2450 4340 2450 4170
-Connection ~ 2450 4170
+	7460 2370 7460 2200
+Connection ~ 7460 2200
 Wire Wire Line
-	2450 4170 2450 4160
+	7460 2200 7460 2190
 Wire Wire Line
-	2170 4340 2170 4530
-Connection ~ 2170 4340
+	7180 2370 7180 2560
+Connection ~ 7180 2370
 Wire Wire Line
-	2170 4340 2450 4340
+	7180 2370 7460 2370
 $Comp
 L Transistor_BJT:BC856 Q?
 U 1 1 62C69590
-P 2250 3470
-F 0 "Q?" H 2170 3340 50  0000 L CNN
-F 1 "BC856" H 2100 3280 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2450 3395 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 2250 3470 50  0001 L CNN
-	1    2250 3470
+P 7260 1500
+F 0 "Q?" H 7180 1370 50  0000 L CNN
+F 1 "BC856" H 7110 1310 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7460 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 7260 1500 50  0001 L CNN
+	1    7260 1500
 	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62C69596
-P 1870 3430
-F 0 "D?" V 1824 3509 50  0000 L CNN
-F 1 "BZT52Bxx" V 1740 3050 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 1870 3255 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 1870 3430 50  0001 C CNN
-	1    1870 3430
-	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_FET:VP0610T Q?
 U 1 1 62C6959C
-P 2350 3670
-F 0 "Q?" H 2555 3716 50  0000 L CNN
-F 1 "VP0610T" H 2555 3625 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 3595 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 2350 3670 50  0001 L CNN
-	1    2350 3670
+P 7360 1700
+F 0 "Q?" H 7565 1746 50  0000 L CNN
+F 1 "VP0610T" H 7565 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7560 1625 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 7360 1700 50  0001 L CNN
+	1    7360 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 2150 3670
-Connection ~ 2450 3870
-Connection ~ 2450 3470
-Text GLabel 3680 3230 0    50   Input ~ 0
-GPIO_23
+Connection ~ 7160 1700
+Connection ~ 7460 1900
+Connection ~ 7460 1500
 $Comp
 L Device:R R?
-U 1 1 62C695A6
-P 3680 3520
-F 0 "R?" H 3530 3570 50  0000 L CNN
-F 1 "2K2" H 3480 3480 50  0000 L CNN
-F 2 "" V 3610 3520 50  0001 C CNN
-F 3 "~" H 3680 3520 50  0001 C CNN
-	1    3680 3520
+U 1 1 62C6957E
+P 6880 2070
+F 0 "R?" H 6670 2070 50  0000 L CNN
+F 1 "2K2" H 6670 2000 50  0000 L CNN
+F 2 "" V 6810 2070 50  0001 C CNN
+F 3 "~" H 6880 2070 50  0001 C CNN
+	1    6880 2070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B72961
+P 6880 1460
+F 0 "R?" H 6670 1460 50  0000 L CNN
+F 1 "10K" H 6670 1390 50  0000 L CNN
+F 2 "" V 6810 1460 50  0001 C CNN
+F 3 "~" H 6880 1460 50  0001 C CNN
+	1    6880 1460
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CD6C
+P 1210 3710
+F 0 "R?" H 1060 3760 50  0000 L CNN
+F 1 "2K2" H 1010 3670 50  0000 L CNN
+F 2 "" V 1140 3710 50  0001 C CNN
+F 3 "~" H 1210 3710 50  0001 C CNN
+	1    1210 3710
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 62C695AC
-P 3680 3870
-F 0 "#PWR?" H 3680 3620 50  0001 C CNN
-F 1 "GND" H 3685 3697 50  0000 C CNN
-F 2 "" H 3680 3870 50  0001 C CNN
-F 3 "" H 3680 3870 50  0001 C CNN
-	1    3680 3870
+U 1 1 62E2CD72
+P 1210 4060
+F 0 "#PWR?" H 1210 3810 50  0001 C CNN
+F 1 "GND" H 1215 3887 50  0000 C CNN
+F 2 "" H 1210 4060 50  0001 C CNN
+F 3 "" H 1210 4060 50  0001 C CNN
+	1    1210 4060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 62E2CD78
+P 1510 3960
+F 0 "U?" H 1410 4260 50  0000 C CNN
+F 1 "PC817" H 1480 4170 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1310 3760 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1510 3960 50  0001 L CNN
+	1    1510 3960
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CD7E
+P 2500 3510
+F 0 "R?" H 2570 3556 50  0000 L CNN
+F 1 "7R" H 2570 3465 50  0000 L CNN
+F 2 "" V 2430 3510 50  0001 C CNN
+F 3 "~" H 2500 3510 50  0001 C CNN
+	1    2500 3510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3460 2200 3360
+Wire Wire Line
+	2200 3360 2500 3360
+Wire Wire Line
+	1920 3360 2200 3360
+Connection ~ 2200 3360
+Wire Wire Line
+	2500 4060 2740 4060
+Wire Wire Line
+	1210 3560 1210 3420
+$Comp
+L Device:R R?
+U 1 1 62E2CD8A
+P 2500 4210
+F 0 "R?" H 2340 4240 50  0000 L CNN
+F 1 "10K" H 2300 4160 50  0000 L CNN
+F 2 "" V 2430 4210 50  0001 C CNN
+F 3 "~" H 2500 4210 50  0001 C CNN
+	1    2500 4210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62E2CD90
+P 2740 4210
+F 0 "C?" H 2855 4256 50  0000 L CNN
+F 1 "C" H 2855 4165 50  0000 L CNN
+F 2 "" H 2778 4060 50  0001 C CNN
+F 3 "~" H 2740 4210 50  0001 C CNN
+	1    2740 4210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4360 2740 4360
+Wire Wire Line
+	2200 3360 2200 3170
+Text GLabel 2200 3170 0    50   Input ~ 0
+Vcc_1
+Text GLabel 2220 4720 0    50   Input ~ 0
+GND_1
+Wire Wire Line
+	1920 4060 1920 4080
+Wire Wire Line
+	1810 4060 1920 4060
+Wire Wire Line
+	2740 4060 3100 4060
+Connection ~ 2740 4060
+Wire Wire Line
+	1810 3860 1920 3860
+Wire Wire Line
+	1920 3470 1920 3360
+Wire Wire Line
+	1920 3770 1920 3860
+Connection ~ 1920 3860
+Wire Wire Line
+	1920 3860 2200 3860
+Wire Wire Line
+	1920 4380 1920 4530
+Wire Wire Line
+	1920 4530 2220 4530
+Wire Wire Line
+	2500 4530 2500 4360
+Connection ~ 2500 4360
+Wire Wire Line
+	2500 4360 2500 4350
+Wire Wire Line
+	2220 4530 2220 4720
+Connection ~ 2220 4530
+Wire Wire Line
+	2220 4530 2500 4530
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 62E2CDAB
+P 2300 3660
+F 0 "Q?" H 2220 3530 50  0000 L CNN
+F 1 "BC856" H 2150 3470 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2500 3585 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 2300 3660 50  0001 L CNN
+	1    2300 3660
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:VP0610T Q?
+U 1 1 62E2CDB1
+P 2400 3860
+F 0 "Q?" H 2605 3906 50  0000 L CNN
+F 1 "VP0610T" H 2605 3815 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 3785 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 2400 3860 50  0001 L CNN
+	1    2400 3860
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 3860
+Connection ~ 2500 4060
+Connection ~ 2500 3660
+$Comp
+L Device:R R?
+U 1 1 62E2CE0F
+P 1920 4230
+F 0 "R?" H 1710 4230 50  0000 L CNN
+F 1 "2K2" H 1710 4160 50  0000 L CNN
+F 2 "" V 1850 4230 50  0001 C CNN
+F 3 "~" H 1920 4230 50  0001 C CNN
+	1    1920 4230
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CE15
+P 1920 3620
+F 0 "R?" H 1710 3620 50  0000 L CNN
+F 1 "10K" H 1710 3550 50  0000 L CNN
+F 2 "" V 1850 3620 50  0001 C CNN
+F 3 "~" H 1920 3620 50  0001 C CNN
+	1    1920 3620
+	1    0    0    -1  
+$EndComp
+Text GLabel 5530 5480 2    50   Input ~ 0
+id_xx
+Connection ~ 4630 5680
+Wire Wire Line
+	4520 5680 4630 5680
+$Comp
+L Isolator:PC817 U?
+U 1 1 62DDD790
+P 4930 5580
+F 0 "U?" H 4830 5880 50  0000 C CNN
+F 1 "PC817" H 4900 5790 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4730 5380 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4930 5580 50  0001 L CNN
+	1    4930 5580
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62DDD78A
+P 4630 5980
+F 0 "#PWR?" H 4630 5730 50  0001 C CNN
+F 1 "GND" H 4635 5807 50  0000 C CNN
+F 2 "" H 4630 5980 50  0001 C CNN
+F 3 "" H 4630 5980 50  0001 C CNN
+	1    4630 5980
+	1    0    0    -1  
+$EndComp
+Text GLabel 4630 5480 0    50   Input ~ 0
+5v_1
+$Comp
+L Device:R R?
+U 1 1 62DDD783
+P 5380 5480
+F 0 "R?" V 5240 5410 50  0000 L CNN
+F 1 "4K7" V 5170 5410 50  0000 L CNN
+F 2 "" V 5310 5480 50  0001 C CNN
+F 3 "~" H 5380 5480 50  0001 C CNN
+	1    5380 5480
+	0    1    1    0   
+$EndComp
+Text GLabel 5230 5680 2    50   Input ~ 0
+GND_xx
+$Comp
+L Device:R R?
+U 1 1 62DDD77C
+P 4630 5830
+F 0 "R?" H 4480 5880 50  0000 L CNN
+F 1 "4K7" H 4430 5790 50  0000 L CNN
+F 2 "" V 4560 5830 50  0001 C CNN
+F 3 "~" H 4630 5830 50  0001 C CNN
+	1    4630 5830
+	-1   0    0    1   
+$EndComp
+Text GLabel 4520 5680 0    50   Input ~ 0
+GPIO_xx
+Text GLabel 2030 5450 2    50   Input ~ 0
+id_xx
+Connection ~ 1130 5650
+Wire Wire Line
+	1020 5650 1130 5650
+$Comp
+L Isolator:PC817 U?
+U 1 1 62C08F3F
+P 1430 5550
+F 0 "U?" H 1330 5850 50  0000 C CNN
+F 1 "PC817" H 1400 5760 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1230 5350 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1430 5550 50  0001 L CNN
+	1    1430 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62C827FE
+P 1130 5950
+F 0 "#PWR?" H 1130 5700 50  0001 C CNN
+F 1 "GND" H 1135 5777 50  0000 C CNN
+F 2 "" H 1130 5950 50  0001 C CNN
+F 3 "" H 1130 5950 50  0001 C CNN
+	1    1130 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1130 5450 0    50   Input ~ 0
+5v_1
+$Comp
+L Device:R R?
+U 1 1 62C08FA4
+P 1880 5450
+F 0 "R?" V 1740 5380 50  0000 L CNN
+F 1 "4K7" V 1670 5380 50  0000 L CNN
+F 2 "" V 1810 5450 50  0001 C CNN
+F 3 "~" H 1880 5450 50  0001 C CNN
+	1    1880 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62C08F2B
+P 1130 5800
+F 0 "R?" H 980 5850 50  0000 L CNN
+F 1 "4K7" H 930 5760 50  0000 L CNN
+F 2 "" V 1060 5800 50  0001 C CNN
+F 3 "~" H 1130 5800 50  0001 C CNN
+	1    1130 5800
+	-1   0    0    1   
+$EndComp
+Text GLabel 1020 5650 0    50   Input ~ 0
+GPIO_xx
+$Comp
+L Device:R R?
+U 1 1 62E2CE1B
+P 4440 3620
+F 0 "R?" H 4290 3670 50  0000 L CNN
+F 1 "10K" H 4240 3580 50  0000 L CNN
+F 2 "" V 4370 3620 50  0001 C CNN
+F 3 "~" H 4440 3620 50  0001 C CNN
+	1    4440 3620
+	1    0    0    -1  
+$EndComp
+Connection ~ 5020 3660
+Connection ~ 5020 4060
+Connection ~ 4720 3860
+$Comp
+L Transistor_FET:VP0610T Q?
+U 1 1 62E2CE06
+P 4920 3860
+F 0 "Q?" H 5125 3906 50  0000 L CNN
+F 1 "VP0610T" H 5125 3815 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5120 3785 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 4920 3860 50  0001 L CNN
+	1    4920 3860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 62E2CE00
+P 4820 3660
+F 0 "Q?" H 4740 3530 50  0000 L CNN
+F 1 "BC856" H 4670 3470 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5020 3585 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 4820 3660 50  0001 L CNN
+	1    4820 3660
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4740 4530 5020 4530
+Connection ~ 4740 4530
+Wire Wire Line
+	4740 4530 4740 4720
+Wire Wire Line
+	5020 4360 5020 4350
+Connection ~ 5020 4360
+Wire Wire Line
+	5020 4530 5020 4360
+Wire Wire Line
+	4440 4530 4740 4530
+Wire Wire Line
+	4440 4380 4440 4530
+Wire Wire Line
+	4440 3860 4720 3860
+Connection ~ 4440 3860
+Wire Wire Line
+	4440 3770 4440 3860
+Wire Wire Line
+	4440 3470 4440 3360
+$Comp
+L Device:R R?
+U 1 1 62E2CDEE
+P 4440 4230
+F 0 "R?" H 4230 4230 50  0000 L CNN
+F 1 "2K2" H 4230 4160 50  0000 L CNN
+F 2 "" V 4370 4230 50  0001 C CNN
+F 3 "~" H 4440 4230 50  0001 C CNN
+	1    4440 4230
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4330 3860 4440 3860
+Connection ~ 5260 4060
+Wire Wire Line
+	5260 4060 5620 4060
+Wire Wire Line
+	4330 4060 4440 4060
+Wire Wire Line
+	4440 4060 4440 4080
+Text GLabel 4740 4720 0    50   Input ~ 0
+GND_1
+Text GLabel 4720 3170 0    50   Input ~ 0
+Vcc_1
+Wire Wire Line
+	4720 3360 4720 3170
+Wire Wire Line
+	5020 4360 5260 4360
+$Comp
+L Device:C C?
+U 1 1 62E2CDDF
+P 5260 4210
+F 0 "C?" H 5375 4256 50  0000 L CNN
+F 1 "C" H 5375 4165 50  0000 L CNN
+F 2 "" H 5298 4060 50  0001 C CNN
+F 3 "~" H 5260 4210 50  0001 C CNN
+	1    5260 4210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CDD9
+P 5020 4210
+F 0 "R?" H 4860 4240 50  0000 L CNN
+F 1 "10K" H 4820 4160 50  0000 L CNN
+F 2 "" V 4950 4210 50  0001 C CNN
+F 3 "~" H 5020 4210 50  0001 C CNN
+	1    5020 4210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3730 3560 3730 3420
+Wire Wire Line
+	5020 4060 5260 4060
+Connection ~ 4720 3360
+Wire Wire Line
+	4440 3360 4720 3360
+Wire Wire Line
+	4720 3360 5020 3360
+Wire Wire Line
+	4720 3460 4720 3360
+$Comp
+L Device:R R?
+U 1 1 62E2CDCD
+P 5020 3510
+F 0 "R?" H 5090 3556 50  0000 L CNN
+F 1 "7R" H 5090 3465 50  0000 L CNN
+F 2 "" V 4950 3510 50  0001 C CNN
+F 3 "~" H 5020 3510 50  0001 C CNN
+	1    5020 3510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U?
+U 1 1 62E2CDC7
+P 4030 3960
+F 0 "U?" H 3930 4260 50  0000 C CNN
+F 1 "PC817" H 4000 4170 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3830 3760 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4030 3960 50  0001 L CNN
+	1    4030 3960
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62E2CDC1
+P 3730 4060
+F 0 "#PWR?" H 3730 3810 50  0001 C CNN
+F 1 "GND" H 3735 3887 50  0000 C CNN
+F 2 "" H 3730 4060 50  0001 C CNN
+F 3 "" H 3730 4060 50  0001 C CNN
+	1    3730 4060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CDBB
+P 3730 3710
+F 0 "R?" H 3580 3760 50  0000 L CNN
+F 1 "2K2" H 3530 3670 50  0000 L CNN
+F 2 "" V 3660 3710 50  0001 C CNN
+F 3 "~" H 3730 3710 50  0001 C CNN
+	1    3730 3710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BCE920
+P 9400 1460
+F 0 "R?" H 9250 1510 50  0000 L CNN
+F 1 "10K" H 9200 1420 50  0000 L CNN
+F 2 "" V 9330 1460 50  0001 C CNN
+F 3 "~" H 9400 1460 50  0001 C CNN
+	1    9400 1460
+	1    0    0    -1  
+$EndComp
+Connection ~ 9980 1500
+Connection ~ 9980 1900
+Connection ~ 9680 1700
+$Comp
+L Transistor_FET:VP0610T Q?
+U 1 1 62C695F7
+P 9880 1700
+F 0 "Q?" H 10085 1746 50  0000 L CNN
+F 1 "VP0610T" H 10085 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10080 1625 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 9880 1700 50  0001 L CNN
+	1    9880 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 62C695EB
+P 9780 1500
+F 0 "Q?" H 9700 1370 50  0000 L CNN
+F 1 "BC856" H 9630 1310 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9980 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 9780 1500 50  0001 L CNN
+	1    9780 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 2370 9980 2370
+Connection ~ 9700 2370
+Wire Wire Line
+	9700 2370 9700 2560
+Wire Wire Line
+	9980 2200 9980 2190
+Connection ~ 9980 2200
+Wire Wire Line
+	9980 2370 9980 2200
+Wire Wire Line
+	9400 2370 9700 2370
+Wire Wire Line
+	9400 2220 9400 2370
+Wire Wire Line
+	9400 1700 9680 1700
+Connection ~ 9400 1700
+Wire Wire Line
+	9400 1610 9400 1700
+Wire Wire Line
+	9400 1310 9400 1200
+$Comp
+L Device:R R?
+U 1 1 62C695D9
+P 9400 2070
+F 0 "R?" H 9190 2070 50  0000 L CNN
+F 1 "2K2" H 9190 2000 50  0000 L CNN
+F 2 "" V 9330 2070 50  0001 C CNN
+F 3 "~" H 9400 2070 50  0001 C CNN
+	1    9400 2070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9290 1700 9400 1700
+Connection ~ 10220 1900
+Wire Wire Line
+	10220 1900 10580 1900
+Wire Wire Line
+	9290 1900 9400 1900
+Wire Wire Line
+	9400 1900 9400 1920
+Text GLabel 9700 2560 0    50   Input ~ 0
+GND_1
+Text GLabel 9680 1010 0    50   Input ~ 0
+Vcc_1
+Wire Wire Line
+	9680 1200 9680 1010
+Wire Wire Line
+	9980 2200 10220 2200
+$Comp
+L Device:C C?
+U 1 1 62C695CA
+P 10220 2050
+F 0 "C?" H 10335 2096 50  0000 L CNN
+F 1 "C" H 10335 2005 50  0000 L CNN
+F 2 "" H 10258 1900 50  0001 C CNN
+F 3 "~" H 10220 2050 50  0001 C CNN
+	1    10220 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62C695C4
+P 9980 2050
+F 0 "R?" H 9820 2080 50  0000 L CNN
+F 1 "10K" H 9780 2000 50  0000 L CNN
+F 2 "" V 9910 2050 50  0001 C CNN
+F 3 "~" H 9980 2050 50  0001 C CNN
+	1    9980 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8690 1400 8690 1260
+Wire Wire Line
+	9980 1900 10220 1900
+Connection ~ 9680 1200
+Wire Wire Line
+	9400 1200 9680 1200
+Wire Wire Line
+	9680 1200 9980 1200
+Wire Wire Line
+	9680 1300 9680 1200
+$Comp
+L Device:R R?
+U 1 1 62C695B8
+P 9980 1350
+F 0 "R?" H 10050 1396 50  0000 L CNN
+F 1 "7R" H 10050 1305 50  0000 L CNN
+F 2 "" V 9910 1350 50  0001 C CNN
+F 3 "~" H 9980 1350 50  0001 C CNN
+	1    9980 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Isolator:PC817 U?
 U 1 1 62C695B2
-P 3980 3770
-F 0 "U?" H 3880 4070 50  0000 C CNN
-F 1 "PC817" H 3950 3980 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 3780 3570 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3980 3770 50  0001 L CNN
-	1    3980 3770
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62C695B8
-P 4970 3320
-F 0 "R?" H 5040 3366 50  0000 L CNN
-F 1 "4R" H 5040 3275 50  0000 L CNN
-F 2 "" V 4900 3320 50  0001 C CNN
-F 3 "~" H 4970 3320 50  0001 C CNN
-	1    4970 3320
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4670 3270 4670 3170
-Wire Wire Line
-	4670 3170 4970 3170
-Wire Wire Line
-	4390 3170 4670 3170
-Connection ~ 4670 3170
-Wire Wire Line
-	4970 3870 5210 3870
-Wire Wire Line
-	3680 3370 3680 3230
-$Comp
-L Device:R R?
-U 1 1 62C695C4
-P 4970 4020
-F 0 "R?" H 4810 4050 50  0000 L CNN
-F 1 "10K" H 4770 3970 50  0000 L CNN
-F 2 "" V 4900 4020 50  0001 C CNN
-F 3 "~" H 4970 4020 50  0001 C CNN
-	1    4970 4020
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62C695CA
-P 5210 4020
-F 0 "C?" H 5325 4066 50  0000 L CNN
-F 1 "C" H 5325 3975 50  0000 L CNN
-F 2 "" H 5248 3870 50  0001 C CNN
-F 3 "~" H 5210 4020 50  0001 C CNN
-	1    5210 4020
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4970 4170 5210 4170
-Wire Wire Line
-	4670 3170 4670 2980
-Text GLabel 4670 2980 0    50   Input ~ 0
-Vcc_1
-Text GLabel 4690 4530 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	4390 3870 4390 3890
-Wire Wire Line
-	4280 3870 4390 3870
-Wire Wire Line
-	5210 3870 5570 3870
-Connection ~ 5210 3870
-Wire Wire Line
-	4280 3670 4390 3670
-$Comp
-L Device:R R?
-U 1 1 62C695D9
-P 4390 4040
-F 0 "R?" H 4180 4040 50  0000 L CNN
-F 1 "2K2" H 4180 3970 50  0000 L CNN
-F 2 "" V 4320 4040 50  0001 C CNN
-F 3 "~" H 4390 4040 50  0001 C CNN
-	1    4390 4040
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4390 3280 4390 3170
-Wire Wire Line
-	4390 3580 4390 3670
-Connection ~ 4390 3670
-Wire Wire Line
-	4390 3670 4670 3670
-Wire Wire Line
-	4390 4190 4390 4340
-Wire Wire Line
-	4390 4340 4690 4340
-Wire Wire Line
-	4970 4340 4970 4170
-Connection ~ 4970 4170
-Wire Wire Line
-	4970 4170 4970 4160
-Wire Wire Line
-	4690 4340 4690 4530
-Connection ~ 4690 4340
-Wire Wire Line
-	4690 4340 4970 4340
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 62C695EB
-P 4770 3470
-F 0 "Q?" H 4690 3340 50  0000 L CNN
-F 1 "BC856" H 4620 3280 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4970 3395 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 4770 3470 50  0001 L CNN
-	1    4770 3470
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62C695F1
-P 4390 3430
-F 0 "D?" V 4344 3509 50  0000 L CNN
-F 1 "BZT52Bxx" V 4260 3050 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4390 3255 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 4390 3430 50  0001 C CNN
-	1    4390 3430
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:VP0610T Q?
-U 1 1 62C695F7
-P 4870 3670
-F 0 "Q?" H 5075 3716 50  0000 L CNN
-F 1 "VP0610T" H 5075 3625 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5070 3595 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 4870 3670 50  0001 L CNN
-	1    4870 3670
-	1    0    0    -1  
-$EndComp
-Connection ~ 4670 3670
-Connection ~ 4970 3870
-Connection ~ 4970 3470
-Text GLabel 6180 5060 0    50   Input ~ 0
-GPIO_23
-$Comp
-L Device:R R?
-U 1 1 62F020AF
-P 6180 5350
-F 0 "R?" H 6030 5400 50  0000 L CNN
-F 1 "2K2" H 5980 5310 50  0000 L CNN
-F 2 "" V 6110 5350 50  0001 C CNN
-F 3 "~" H 6180 5350 50  0001 C CNN
-	1    6180 5350
+P 8990 1800
+F 0 "U?" H 8890 2100 50  0000 C CNN
+F 1 "PC817" H 8960 2010 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 8790 1600 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8990 1800 50  0001 L CNN
+	1    8990 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 62F020B5
-P 6180 5700
-F 0 "#PWR?" H 6180 5450 50  0001 C CNN
-F 1 "GND" H 6185 5527 50  0000 C CNN
-F 2 "" H 6180 5700 50  0001 C CNN
-F 3 "" H 6180 5700 50  0001 C CNN
-	1    6180 5700
+U 1 1 62C695AC
+P 8690 1900
+F 0 "#PWR?" H 8690 1650 50  0001 C CNN
+F 1 "GND" H 8695 1727 50  0000 C CNN
+F 2 "" H 8690 1900 50  0001 C CNN
+F 3 "" H 8690 1900 50  0001 C CNN
+	1    8690 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62C695A6
+P 8690 1550
+F 0 "R?" H 8540 1600 50  0000 L CNN
+F 1 "2K2" H 8490 1510 50  0000 L CNN
+F 2 "" V 8620 1550 50  0001 C CNN
+F 3 "~" H 8690 1550 50  0001 C CNN
+	1    8690 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CE27
+P 6920 3620
+F 0 "R?" H 6710 3620 50  0000 L CNN
+F 1 "10K" H 6710 3550 50  0000 L CNN
+F 2 "" V 6850 3620 50  0001 C CNN
+F 3 "~" H 6920 3620 50  0001 C CNN
+	1    6920 3620
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 3660
+Connection ~ 7500 4060
+Connection ~ 7200 3860
+$Comp
+L Transistor_FET:VP0610T Q?
+U 1 1 62E2CD0D
+P 7400 3860
+F 0 "Q?" H 7605 3906 50  0000 L CNN
+F 1 "VP0610T" H 7605 3815 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 3785 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 7400 3860 50  0001 L CNN
+	1    7400 3860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 62E2CD07
+P 7300 3660
+F 0 "Q?" H 7220 3530 50  0000 L CNN
+F 1 "BC856" H 7150 3470 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 3585 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 7300 3660 50  0001 L CNN
+	1    7300 3660
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7220 4530 7500 4530
+Connection ~ 7220 4530
+Wire Wire Line
+	7220 4530 7220 4720
+Wire Wire Line
+	7500 4360 7500 4350
+Connection ~ 7500 4360
+Wire Wire Line
+	7500 4530 7500 4360
+Wire Wire Line
+	6920 4530 7220 4530
+Wire Wire Line
+	6920 4380 6920 4530
+Wire Wire Line
+	6920 3860 7200 3860
+Connection ~ 6920 3860
+Wire Wire Line
+	6920 3770 6920 3860
+Wire Wire Line
+	6920 3470 6920 3360
+$Comp
+L Device:R R?
+U 1 1 62E2CCF5
+P 6920 4230
+F 0 "R?" H 6710 4230 50  0000 L CNN
+F 1 "2K2" H 6710 4160 50  0000 L CNN
+F 2 "" V 6850 4230 50  0001 C CNN
+F 3 "~" H 6920 4230 50  0001 C CNN
+	1    6920 4230
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6810 3860 6920 3860
+Connection ~ 7740 4060
+Wire Wire Line
+	7740 4060 8100 4060
+Wire Wire Line
+	6810 4060 6920 4060
+Wire Wire Line
+	6920 4060 6920 4080
+Text GLabel 7220 4720 0    50   Input ~ 0
+GND_1
+Text GLabel 7200 3170 0    50   Input ~ 0
+Vcc_1
+Wire Wire Line
+	7200 3360 7200 3170
+Wire Wire Line
+	7500 4360 7740 4360
+$Comp
+L Device:C C?
+U 1 1 62E2CCE6
+P 7740 4210
+F 0 "C?" H 7855 4256 50  0000 L CNN
+F 1 "C" H 7855 4165 50  0000 L CNN
+F 2 "" H 7778 4060 50  0001 C CNN
+F 3 "~" H 7740 4210 50  0001 C CNN
+	1    7740 4210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CCE0
+P 7500 4210
+F 0 "R?" H 7340 4240 50  0000 L CNN
+F 1 "10K" H 7300 4160 50  0000 L CNN
+F 2 "" V 7430 4210 50  0001 C CNN
+F 3 "~" H 7500 4210 50  0001 C CNN
+	1    7500 4210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6210 3560 6210 3420
+Wire Wire Line
+	7500 4060 7740 4060
+Connection ~ 7200 3360
+Wire Wire Line
+	6920 3360 7200 3360
+Wire Wire Line
+	7200 3360 7500 3360
+Wire Wire Line
+	7200 3460 7200 3360
+$Comp
+L Device:R R?
+U 1 1 62E2CCD4
+P 7500 3510
+F 0 "R?" H 7570 3556 50  0000 L CNN
+F 1 "7R" H 7570 3465 50  0000 L CNN
+F 2 "" V 7430 3510 50  0001 C CNN
+F 3 "~" H 7500 3510 50  0001 C CNN
+	1    7500 3510
 	1    0    0    -1  
 $EndComp
 $Comp
 L Isolator:PC817 U?
-U 1 1 62F020BB
-P 6480 5600
-F 0 "U?" H 6380 5900 50  0000 C CNN
-F 1 "PC817" H 6450 5810 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 6280 5400 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6480 5600 50  0001 L CNN
-	1    6480 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62F020C1
-P 7470 5150
-F 0 "R?" H 7540 5196 50  0000 L CNN
-F 1 "4R" H 7540 5105 50  0000 L CNN
-F 2 "" V 7400 5150 50  0001 C CNN
-F 3 "~" H 7470 5150 50  0001 C CNN
-	1    7470 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7170 5100 7170 5000
-Wire Wire Line
-	7170 5000 7470 5000
-Wire Wire Line
-	6890 5000 7170 5000
-Connection ~ 7170 5000
-Wire Wire Line
-	7470 5700 7710 5700
-Wire Wire Line
-	6180 5200 6180 5060
-$Comp
-L Device:R R?
-U 1 1 62F020CD
-P 7470 5850
-F 0 "R?" H 7310 5880 50  0000 L CNN
-F 1 "10K" H 7270 5800 50  0000 L CNN
-F 2 "" V 7400 5850 50  0001 C CNN
-F 3 "~" H 7470 5850 50  0001 C CNN
-	1    7470 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62F020D3
-P 7710 5850
-F 0 "C?" H 7825 5896 50  0000 L CNN
-F 1 "C" H 7825 5805 50  0000 L CNN
-F 2 "" H 7748 5700 50  0001 C CNN
-F 3 "~" H 7710 5850 50  0001 C CNN
-	1    7710 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7470 6000 7710 6000
-Wire Wire Line
-	7170 5000 7170 4810
-Text GLabel 7170 4810 0    50   Input ~ 0
-Vcc_1
-Text GLabel 7190 6360 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	6890 5700 6890 5720
-Wire Wire Line
-	6780 5700 6890 5700
-Wire Wire Line
-	7710 5700 8070 5700
-Connection ~ 7710 5700
-Wire Wire Line
-	6780 5500 6890 5500
-$Comp
-L Device:R R?
-U 1 1 62F020E2
-P 6890 5870
-F 0 "R?" H 6680 5870 50  0000 L CNN
-F 1 "2K2" H 6680 5800 50  0000 L CNN
-F 2 "" V 6820 5870 50  0001 C CNN
-F 3 "~" H 6890 5870 50  0001 C CNN
-	1    6890 5870
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6890 5110 6890 5000
-Wire Wire Line
-	6890 5410 6890 5500
-Connection ~ 6890 5500
-Wire Wire Line
-	6890 5500 7170 5500
-Wire Wire Line
-	6890 6020 6890 6170
-Wire Wire Line
-	6890 6170 7190 6170
-Wire Wire Line
-	7470 6170 7470 6000
-Connection ~ 7470 6000
-Wire Wire Line
-	7470 6000 7470 5990
-Wire Wire Line
-	7190 6170 7190 6360
-Connection ~ 7190 6170
-Wire Wire Line
-	7190 6170 7470 6170
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 62F020F4
-P 7270 5300
-F 0 "Q?" H 7190 5170 50  0000 L CNN
-F 1 "BC856" H 7120 5110 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7470 5225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 7270 5300 50  0001 L CNN
-	1    7270 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62F020FA
-P 6890 5260
-F 0 "D?" V 6844 5339 50  0000 L CNN
-F 1 "BZT52Bxx" V 6760 4880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 6890 5085 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 6890 5260 50  0001 C CNN
-	1    6890 5260
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:VP0610T Q?
-U 1 1 62F02100
-P 7370 5500
-F 0 "Q?" H 7575 5546 50  0000 L CNN
-F 1 "VP0610T" H 7575 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7570 5425 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 7370 5500 50  0001 L CNN
-	1    7370 5500
-	1    0    0    -1  
-$EndComp
-Connection ~ 7170 5500
-Connection ~ 7470 5700
-Connection ~ 7470 5300
-Text GLabel 8730 5060 0    50   Input ~ 0
-GPIO_23
-$Comp
-L Device:R R?
-U 1 1 62F0210A
-P 8730 5350
-F 0 "R?" H 8580 5400 50  0000 L CNN
-F 1 "2K2" H 8530 5310 50  0000 L CNN
-F 2 "" V 8660 5350 50  0001 C CNN
-F 3 "~" H 8730 5350 50  0001 C CNN
-	1    8730 5350
+U 1 1 62E2CCCE
+P 6510 3960
+F 0 "U?" H 6410 4260 50  0000 C CNN
+F 1 "PC817" H 6480 4170 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 6310 3760 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6510 3960 50  0001 L CNN
+	1    6510 3960
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 62F02110
-P 8730 5700
-F 0 "#PWR?" H 8730 5450 50  0001 C CNN
-F 1 "GND" H 8735 5527 50  0000 C CNN
-F 2 "" H 8730 5700 50  0001 C CNN
-F 3 "" H 8730 5700 50  0001 C CNN
-	1    8730 5700
+U 1 1 62E2CCC8
+P 6210 4060
+F 0 "#PWR?" H 6210 3810 50  0001 C CNN
+F 1 "GND" H 6215 3887 50  0000 C CNN
+F 2 "" H 6210 4060 50  0001 C CNN
+F 3 "" H 6210 4060 50  0001 C CNN
+	1    6210 4060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62E2CCC2
+P 6210 3710
+F 0 "R?" H 6060 3760 50  0000 L CNN
+F 1 "2K2" H 6010 3670 50  0000 L CNN
+F 2 "" V 6140 3710 50  0001 C CNN
+F 3 "~" H 6210 3710 50  0001 C CNN
+	1    6210 3710
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62BE7711
+P 9410 3610
+F 0 "R?" H 9200 3610 50  0000 L CNN
+F 1 "10K" H 9200 3540 50  0000 L CNN
+F 2 "" V 9340 3610 50  0001 C CNN
+F 3 "~" H 9410 3610 50  0001 C CNN
+	1    9410 3610
+	1    0    0    -1  
+$EndComp
+Connection ~ 9990 3650
+Connection ~ 9990 4050
+Connection ~ 9690 3850
+$Comp
+L Transistor_FET:VP0610T Q?
+U 1 1 62AF02AD
+P 9890 3850
+F 0 "Q?" H 10095 3896 50  0000 L CNN
+F 1 "VP0610T" H 10095 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10090 3775 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 9890 3850 50  0001 L CNN
+	1    9890 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC856 Q?
+U 1 1 62AE389F
+P 9790 3650
+F 0 "Q?" H 9710 3520 50  0000 L CNN
+F 1 "BC856" H 9640 3460 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9990 3575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 9790 3650 50  0001 L CNN
+	1    9790 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9710 4520 9990 4520
+Connection ~ 9710 4520
+Wire Wire Line
+	9710 4520 9710 4710
+Wire Wire Line
+	9990 4350 9990 4340
+Connection ~ 9990 4350
+Wire Wire Line
+	9990 4520 9990 4350
+Wire Wire Line
+	9410 4520 9710 4520
+Wire Wire Line
+	9410 4370 9410 4520
+Wire Wire Line
+	9410 3850 9690 3850
+Connection ~ 9410 3850
+Wire Wire Line
+	9410 3760 9410 3850
+Wire Wire Line
+	9410 3460 9410 3350
+$Comp
+L Device:R R?
+U 1 1 62AD10DF
+P 9410 4220
+F 0 "R?" H 9200 4220 50  0000 L CNN
+F 1 "2K2" H 9200 4150 50  0000 L CNN
+F 2 "" V 9340 4220 50  0001 C CNN
+F 3 "~" H 9410 4220 50  0001 C CNN
+	1    9410 4220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3850 9410 3850
+Connection ~ 10230 4050
+Wire Wire Line
+	10230 4050 10590 4050
+Wire Wire Line
+	9300 4050 9410 4050
+Wire Wire Line
+	9410 4050 9410 4070
+Text GLabel 9710 4710 0    50   Input ~ 0
+GND_1
+Text GLabel 9690 3160 0    50   Input ~ 0
+Vcc_1
+Wire Wire Line
+	9690 3350 9690 3160
+Wire Wire Line
+	9990 4350 10230 4350
+$Comp
+L Device:C C?
+U 1 1 626EFDE8
+P 10230 4200
+F 0 "C?" H 10345 4246 50  0000 L CNN
+F 1 "C" H 10345 4155 50  0000 L CNN
+F 2 "" H 10268 4050 50  0001 C CNN
+F 3 "~" H 10230 4200 50  0001 C CNN
+	1    10230 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 626EED4D
+P 9990 4200
+F 0 "R?" H 9830 4230 50  0000 L CNN
+F 1 "10K" H 9790 4150 50  0000 L CNN
+F 2 "" V 9920 4200 50  0001 C CNN
+F 3 "~" H 9990 4200 50  0001 C CNN
+	1    9990 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3550 8700 3410
+Wire Wire Line
+	9990 4050 10230 4050
+Connection ~ 9690 3350
+Wire Wire Line
+	9410 3350 9690 3350
+Wire Wire Line
+	9690 3350 9990 3350
+Wire Wire Line
+	9690 3450 9690 3350
+$Comp
+L Device:R R?
+U 1 1 626246A4
+P 9990 3500
+F 0 "R?" H 10060 3546 50  0000 L CNN
+F 1 "7R" H 10060 3455 50  0000 L CNN
+F 2 "" V 9920 3500 50  0001 C CNN
+F 3 "~" H 9990 3500 50  0001 C CNN
+	1    9990 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Isolator:PC817 U?
-U 1 1 62F02116
-P 9030 5600
-F 0 "U?" H 8930 5900 50  0000 C CNN
-F 1 "PC817" H 9000 5810 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 8830 5400 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 9030 5600 50  0001 L CNN
-	1    9030 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62F0211C
-P 10020 5150
-F 0 "R?" H 10090 5196 50  0000 L CNN
-F 1 "4R" H 10090 5105 50  0000 L CNN
-F 2 "" V 9950 5150 50  0001 C CNN
-F 3 "~" H 10020 5150 50  0001 C CNN
-	1    10020 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9720 5100 9720 5000
-Wire Wire Line
-	9720 5000 10020 5000
-Wire Wire Line
-	9440 5000 9720 5000
-Connection ~ 9720 5000
-Wire Wire Line
-	10020 5700 10260 5700
-Wire Wire Line
-	8730 5200 8730 5060
-$Comp
-L Device:R R?
-U 1 1 62F02128
-P 10020 5850
-F 0 "R?" H 9860 5880 50  0000 L CNN
-F 1 "10K" H 9820 5800 50  0000 L CNN
-F 2 "" V 9950 5850 50  0001 C CNN
-F 3 "~" H 10020 5850 50  0001 C CNN
-	1    10020 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62F0212E
-P 10260 5850
-F 0 "C?" H 10375 5896 50  0000 L CNN
-F 1 "C" H 10375 5805 50  0000 L CNN
-F 2 "" H 10298 5700 50  0001 C CNN
-F 3 "~" H 10260 5850 50  0001 C CNN
-	1    10260 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10020 6000 10260 6000
-Wire Wire Line
-	9720 5000 9720 4810
-Text GLabel 9720 4810 0    50   Input ~ 0
-Vcc_1
-Text GLabel 9740 6360 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	9440 5700 9440 5720
-Wire Wire Line
-	9330 5700 9440 5700
-Wire Wire Line
-	10260 5700 10620 5700
-Connection ~ 10260 5700
-Wire Wire Line
-	9330 5500 9440 5500
-$Comp
-L Device:R R?
-U 1 1 62F0213D
-P 9440 5870
-F 0 "R?" H 9230 5870 50  0000 L CNN
-F 1 "2K2" H 9230 5800 50  0000 L CNN
-F 2 "" V 9370 5870 50  0001 C CNN
-F 3 "~" H 9440 5870 50  0001 C CNN
-	1    9440 5870
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9440 5110 9440 5000
-Wire Wire Line
-	9440 5410 9440 5500
-Connection ~ 9440 5500
-Wire Wire Line
-	9440 5500 9720 5500
-Wire Wire Line
-	9440 6020 9440 6170
-Wire Wire Line
-	9440 6170 9740 6170
-Wire Wire Line
-	10020 6170 10020 6000
-Connection ~ 10020 6000
-Wire Wire Line
-	10020 6000 10020 5990
-Wire Wire Line
-	9740 6170 9740 6360
-Connection ~ 9740 6170
-Wire Wire Line
-	9740 6170 10020 6170
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 62F0214F
-P 9820 5300
-F 0 "Q?" H 9740 5170 50  0000 L CNN
-F 1 "BC856" H 9670 5110 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10020 5225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 9820 5300 50  0001 L CNN
-	1    9820 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62F02155
-P 9440 5260
-F 0 "D?" V 9394 5339 50  0000 L CNN
-F 1 "BZT52Bxx" V 9310 4880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 9440 5085 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 9440 5260 50  0001 C CNN
-	1    9440 5260
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:VP0610T Q?
-U 1 1 62F0215B
-P 9920 5500
-F 0 "Q?" H 10125 5546 50  0000 L CNN
-F 1 "VP0610T" H 10125 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10120 5425 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 9920 5500 50  0001 L CNN
-	1    9920 5500
-	1    0    0    -1  
-$EndComp
-Connection ~ 9720 5500
-Connection ~ 10020 5700
-Connection ~ 10020 5300
-Text GLabel 1180 5060 0    50   Input ~ 0
-GPIO_23
-$Comp
-L Device:R R?
-U 1 1 62F02165
-P 1180 5350
-F 0 "R?" H 1030 5400 50  0000 L CNN
-F 1 "2K2" H 980 5310 50  0000 L CNN
-F 2 "" V 1110 5350 50  0001 C CNN
-F 3 "~" H 1180 5350 50  0001 C CNN
-	1    1180 5350
+U 1 1 620A4B68
+P 9000 3950
+F 0 "U?" H 8900 4250 50  0000 C CNN
+F 1 "PC817" H 8970 4160 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 8800 3750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 9000 3950 50  0001 L CNN
+	1    9000 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 62F0216B
-P 1180 5700
-F 0 "#PWR?" H 1180 5450 50  0001 C CNN
-F 1 "GND" H 1185 5527 50  0000 C CNN
-F 2 "" H 1180 5700 50  0001 C CNN
-F 3 "" H 1180 5700 50  0001 C CNN
-	1    1180 5700
+U 1 1 620A4B5B
+P 8700 4050
+F 0 "#PWR?" H 8700 3800 50  0001 C CNN
+F 1 "GND" H 8705 3877 50  0000 C CNN
+F 2 "" H 8700 4050 50  0001 C CNN
+F 3 "" H 8700 4050 50  0001 C CNN
+	1    8700 4050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 620A4B51
+P 8700 3700
+F 0 "R?" H 8550 3750 50  0000 L CNN
+F 1 "2K2" H 8500 3660 50  0000 L CNN
+F 2 "" V 8630 3700 50  0001 C CNN
+F 3 "~" H 8700 3700 50  0001 C CNN
+	1    8700 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7320 5480 2    50   Input ~ 0
+id_xx
+Connection ~ 6420 5680
+Wire Wire Line
+	6310 5680 6420 5680
 $Comp
 L Isolator:PC817 U?
-U 1 1 62F02171
-P 1480 5600
-F 0 "U?" H 1380 5900 50  0000 C CNN
-F 1 "PC817" H 1450 5810 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 1280 5400 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1480 5600 50  0001 L CNN
-	1    1480 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62F02177
-P 2470 5150
-F 0 "R?" H 2540 5196 50  0000 L CNN
-F 1 "4R" H 2540 5105 50  0000 L CNN
-F 2 "" V 2400 5150 50  0001 C CNN
-F 3 "~" H 2470 5150 50  0001 C CNN
-	1    2470 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2170 5100 2170 5000
-Wire Wire Line
-	2170 5000 2470 5000
-Wire Wire Line
-	1890 5000 2170 5000
-Connection ~ 2170 5000
-Wire Wire Line
-	2470 5700 2710 5700
-Wire Wire Line
-	1180 5200 1180 5060
-$Comp
-L Device:R R?
-U 1 1 62F02183
-P 2470 5850
-F 0 "R?" H 2310 5880 50  0000 L CNN
-F 1 "10K" H 2270 5800 50  0000 L CNN
-F 2 "" V 2400 5850 50  0001 C CNN
-F 3 "~" H 2470 5850 50  0001 C CNN
-	1    2470 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62F02189
-P 2710 5850
-F 0 "C?" H 2825 5896 50  0000 L CNN
-F 1 "C" H 2825 5805 50  0000 L CNN
-F 2 "" H 2748 5700 50  0001 C CNN
-F 3 "~" H 2710 5850 50  0001 C CNN
-	1    2710 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2470 6000 2710 6000
-Wire Wire Line
-	2170 5000 2170 4810
-Text GLabel 2170 4810 0    50   Input ~ 0
-Vcc_1
-Text GLabel 2190 6360 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	1890 5700 1890 5720
-Wire Wire Line
-	1780 5700 1890 5700
-Wire Wire Line
-	2710 5700 3070 5700
-Connection ~ 2710 5700
-Wire Wire Line
-	1780 5500 1890 5500
-$Comp
-L Device:R R?
-U 1 1 62F02198
-P 1890 5870
-F 0 "R?" H 1680 5870 50  0000 L CNN
-F 1 "2K2" H 1680 5800 50  0000 L CNN
-F 2 "" V 1820 5870 50  0001 C CNN
-F 3 "~" H 1890 5870 50  0001 C CNN
-	1    1890 5870
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1890 5110 1890 5000
-Wire Wire Line
-	1890 5410 1890 5500
-Connection ~ 1890 5500
-Wire Wire Line
-	1890 5500 2170 5500
-Wire Wire Line
-	1890 6020 1890 6170
-Wire Wire Line
-	1890 6170 2190 6170
-Wire Wire Line
-	2470 6170 2470 6000
-Connection ~ 2470 6000
-Wire Wire Line
-	2470 6000 2470 5990
-Wire Wire Line
-	2190 6170 2190 6360
-Connection ~ 2190 6170
-Wire Wire Line
-	2190 6170 2470 6170
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 62F021AA
-P 2270 5300
-F 0 "Q?" H 2190 5170 50  0000 L CNN
-F 1 "BC856" H 2120 5110 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2470 5225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 2270 5300 50  0001 L CNN
-	1    2270 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62F021B0
-P 1890 5260
-F 0 "D?" V 1844 5339 50  0000 L CNN
-F 1 "BZT52Bxx" V 1760 4880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 1890 5085 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 1890 5260 50  0001 C CNN
-	1    1890 5260
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:VP0610T Q?
-U 1 1 62F021B6
-P 2370 5500
-F 0 "Q?" H 2575 5546 50  0000 L CNN
-F 1 "VP0610T" H 2575 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2570 5425 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 2370 5500 50  0001 L CNN
-	1    2370 5500
-	1    0    0    -1  
-$EndComp
-Connection ~ 2170 5500
-Connection ~ 2470 5700
-Connection ~ 2470 5300
-Text GLabel 3700 5060 0    50   Input ~ 0
-GPIO_23
-$Comp
-L Device:R R?
-U 1 1 62F021C0
-P 3700 5350
-F 0 "R?" H 3550 5400 50  0000 L CNN
-F 1 "2K2" H 3500 5310 50  0000 L CNN
-F 2 "" V 3630 5350 50  0001 C CNN
-F 3 "~" H 3700 5350 50  0001 C CNN
-	1    3700 5350
-	1    0    0    -1  
+U 1 1 63035B8B
+P 6720 5580
+F 0 "U?" H 6620 5880 50  0000 C CNN
+F 1 "PC817" H 6690 5790 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 6520 5380 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 6720 5580 50  0001 L CNN
+	1    6720 5580
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 62F021C6
-P 3700 5700
-F 0 "#PWR?" H 3700 5450 50  0001 C CNN
-F 1 "GND" H 3705 5527 50  0000 C CNN
-F 2 "" H 3700 5700 50  0001 C CNN
-F 3 "" H 3700 5700 50  0001 C CNN
-	1    3700 5700
+U 1 1 63035B91
+P 6420 5980
+F 0 "#PWR?" H 6420 5730 50  0001 C CNN
+F 1 "GND" H 6425 5807 50  0000 C CNN
+F 2 "" H 6420 5980 50  0001 C CNN
+F 3 "" H 6420 5980 50  0001 C CNN
+	1    6420 5980
 	1    0    0    -1  
 $EndComp
-$Comp
-L Isolator:PC817 U?
-U 1 1 62F021CC
-P 4000 5600
-F 0 "U?" H 3900 5900 50  0000 C CNN
-F 1 "PC817" H 3970 5810 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 3800 5400 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4000 5600 50  0001 L CNN
-	1    4000 5600
-	1    0    0    -1  
-$EndComp
+Text GLabel 6420 5480 0    50   Input ~ 0
+5v_1
 $Comp
 L Device:R R?
-U 1 1 62F021D2
-P 4990 5150
-F 0 "R?" H 5060 5196 50  0000 L CNN
-F 1 "4R" H 5060 5105 50  0000 L CNN
-F 2 "" V 4920 5150 50  0001 C CNN
-F 3 "~" H 4990 5150 50  0001 C CNN
-	1    4990 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4690 5100 4690 5000
-Wire Wire Line
-	4690 5000 4990 5000
-Wire Wire Line
-	4410 5000 4690 5000
-Connection ~ 4690 5000
-Wire Wire Line
-	4990 5700 5230 5700
-Wire Wire Line
-	3700 5200 3700 5060
-$Comp
-L Device:R R?
-U 1 1 62F021DE
-P 4990 5850
-F 0 "R?" H 4830 5880 50  0000 L CNN
-F 1 "10K" H 4790 5800 50  0000 L CNN
-F 2 "" V 4920 5850 50  0001 C CNN
-F 3 "~" H 4990 5850 50  0001 C CNN
-	1    4990 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 62F021E4
-P 5230 5850
-F 0 "C?" H 5345 5896 50  0000 L CNN
-F 1 "C" H 5345 5805 50  0000 L CNN
-F 2 "" H 5268 5700 50  0001 C CNN
-F 3 "~" H 5230 5850 50  0001 C CNN
-	1    5230 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4990 6000 5230 6000
-Wire Wire Line
-	4690 5000 4690 4810
-Text GLabel 4690 4810 0    50   Input ~ 0
-Vcc_1
-Text GLabel 4710 6360 0    50   Input ~ 0
-GND_1
-Wire Wire Line
-	4410 5700 4410 5720
-Wire Wire Line
-	4300 5700 4410 5700
-Wire Wire Line
-	5230 5700 5590 5700
-Connection ~ 5230 5700
-Wire Wire Line
-	4300 5500 4410 5500
-$Comp
-L Device:R R?
-U 1 1 62F021F3
-P 4410 5870
-F 0 "R?" H 4200 5870 50  0000 L CNN
-F 1 "2K2" H 4200 5800 50  0000 L CNN
-F 2 "" V 4340 5870 50  0001 C CNN
-F 3 "~" H 4410 5870 50  0001 C CNN
-	1    4410 5870
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4410 5110 4410 5000
-Wire Wire Line
-	4410 5410 4410 5500
-Connection ~ 4410 5500
-Wire Wire Line
-	4410 5500 4690 5500
-Wire Wire Line
-	4410 6020 4410 6170
-Wire Wire Line
-	4410 6170 4710 6170
-Wire Wire Line
-	4990 6170 4990 6000
-Connection ~ 4990 6000
-Wire Wire Line
-	4990 6000 4990 5990
-Wire Wire Line
-	4710 6170 4710 6360
-Connection ~ 4710 6170
-Wire Wire Line
-	4710 6170 4990 6170
-$Comp
-L Transistor_BJT:BC856 Q?
-U 1 1 62F02205
-P 4790 5300
-F 0 "Q?" H 4710 5170 50  0000 L CNN
-F 1 "BC856" H 4640 5110 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4990 5225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 4790 5300 50  0001 L CNN
-	1    4790 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:BZT52Bxx D?
-U 1 1 62F0220B
-P 4410 5260
-F 0 "D?" V 4364 5339 50  0000 L CNN
-F 1 "BZT52Bxx" V 4280 4880 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4410 5085 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 4410 5260 50  0001 C CNN
-	1    4410 5260
+U 1 1 63035B98
+P 7170 5480
+F 0 "R?" V 7030 5410 50  0000 L CNN
+F 1 "4K7" V 6960 5410 50  0000 L CNN
+F 2 "" V 7100 5480 50  0001 C CNN
+F 3 "~" H 7170 5480 50  0001 C CNN
+	1    7170 5480
 	0    1    1    0   
 $EndComp
+Text GLabel 7020 5680 2    50   Input ~ 0
+GND_xx
 $Comp
-L Transistor_FET:VP0610T Q?
-U 1 1 62F02211
-P 4890 5500
-F 0 "Q?" H 5095 5546 50  0000 L CNN
-F 1 "VP0610T" H 5095 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5090 5425 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 4890 5500 50  0001 L CNN
-	1    4890 5500
+L Device:R R?
+U 1 1 63035B9F
+P 6420 5830
+F 0 "R?" H 6270 5880 50  0000 L CNN
+F 1 "4K7" H 6220 5790 50  0000 L CNN
+F 2 "" V 6350 5830 50  0001 C CNN
+F 3 "~" H 6420 5830 50  0001 C CNN
+	1    6420 5830
+	-1   0    0    1   
+$EndComp
+Text GLabel 6310 5680 0    50   Input ~ 0
+GPIO_xx
+Text GLabel 3760 5470 2    50   Input ~ 0
+id_xx
+Connection ~ 2860 5670
+Wire Wire Line
+	2750 5670 2860 5670
+$Comp
+L Isolator:PC817 U?
+U 1 1 63035BA9
+P 3160 5570
+F 0 "U?" H 3060 5870 50  0000 C CNN
+F 1 "PC817" H 3130 5780 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 2960 5370 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3160 5570 50  0001 L CNN
+	1    3160 5570
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63035BAF
+P 2860 5970
+F 0 "#PWR?" H 2860 5720 50  0001 C CNN
+F 1 "GND" H 2865 5797 50  0000 C CNN
+F 2 "" H 2860 5970 50  0001 C CNN
+F 3 "" H 2860 5970 50  0001 C CNN
+	1    2860 5970
 	1    0    0    -1  
 $EndComp
-Connection ~ 4690 5500
-Connection ~ 4990 5700
-Connection ~ 4990 5300
+Text GLabel 2860 5470 0    50   Input ~ 0
+5v_1
+$Comp
+L Device:R R?
+U 1 1 63035BB6
+P 3610 5470
+F 0 "R?" V 3470 5400 50  0000 L CNN
+F 1 "4K7" V 3400 5400 50  0000 L CNN
+F 2 "" V 3540 5470 50  0001 C CNN
+F 3 "~" H 3610 5470 50  0001 C CNN
+	1    3610 5470
+	0    1    1    0   
+$EndComp
+Text GLabel 3460 5670 2    50   Input ~ 0
+GND_xx
+$Comp
+L Device:R R?
+U 1 1 63035BBD
+P 2860 5820
+F 0 "R?" H 2710 5870 50  0000 L CNN
+F 1 "4K7" H 2660 5780 50  0000 L CNN
+F 2 "" V 2790 5820 50  0001 C CNN
+F 3 "~" H 2860 5820 50  0001 C CNN
+	1    2860 5820
+	-1   0    0    1   
+$EndComp
+Text GLabel 2750 5670 0    50   Input ~ 0
+GPIO_xx
+Text GLabel 8950 5470 2    50   Input ~ 0
+id_xx
+Connection ~ 8050 5670
+Wire Wire Line
+	7940 5670 8050 5670
+$Comp
+L Isolator:PC817 U?
+U 1 1 630DB17D
+P 8350 5570
+F 0 "U?" H 8250 5870 50  0000 C CNN
+F 1 "PC817" H 8320 5780 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 8150 5370 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 8350 5570 50  0001 L CNN
+	1    8350 5570
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630DB183
+P 8050 5970
+F 0 "#PWR?" H 8050 5720 50  0001 C CNN
+F 1 "GND" H 8055 5797 50  0000 C CNN
+F 2 "" H 8050 5970 50  0001 C CNN
+F 3 "" H 8050 5970 50  0001 C CNN
+	1    8050 5970
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 5470 0    50   Input ~ 0
+5v_1
+$Comp
+L Device:R R?
+U 1 1 630DB18A
+P 8800 5470
+F 0 "R?" V 8660 5400 50  0000 L CNN
+F 1 "4K7" V 8590 5400 50  0000 L CNN
+F 2 "" V 8730 5470 50  0001 C CNN
+F 3 "~" H 8800 5470 50  0001 C CNN
+	1    8800 5470
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 5670 2    50   Input ~ 0
+GND_xx
+$Comp
+L Device:R R?
+U 1 1 630DB191
+P 8050 5820
+F 0 "R?" H 7900 5870 50  0000 L CNN
+F 1 "4K7" H 7850 5780 50  0000 L CNN
+F 2 "" V 7980 5820 50  0001 C CNN
+F 3 "~" H 8050 5820 50  0001 C CNN
+	1    8050 5820
+	-1   0    0    1   
+$EndComp
+Text GLabel 7940 5670 0    50   Input ~ 0
+GPIO_xx
+Text GLabel 10740 5470 2    50   Input ~ 0
+id_xx
+Connection ~ 9840 5670
+Wire Wire Line
+	9730 5670 9840 5670
+$Comp
+L Isolator:PC817 U?
+U 1 1 630DB19B
+P 10140 5570
+F 0 "U?" H 10040 5870 50  0000 C CNN
+F 1 "PC817" H 10110 5780 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 9940 5370 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10140 5570 50  0001 L CNN
+	1    10140 5570
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630DB1A1
+P 9840 5970
+F 0 "#PWR?" H 9840 5720 50  0001 C CNN
+F 1 "GND" H 9845 5797 50  0000 C CNN
+F 2 "" H 9840 5970 50  0001 C CNN
+F 3 "" H 9840 5970 50  0001 C CNN
+	1    9840 5970
+	1    0    0    -1  
+$EndComp
+Text GLabel 9840 5470 0    50   Input ~ 0
+5v_1
+$Comp
+L Device:R R?
+U 1 1 630DB1A8
+P 10590 5470
+F 0 "R?" V 10450 5400 50  0000 L CNN
+F 1 "4K7" V 10380 5400 50  0000 L CNN
+F 2 "" V 10520 5470 50  0001 C CNN
+F 3 "~" H 10590 5470 50  0001 C CNN
+	1    10590 5470
+	0    1    1    0   
+$EndComp
+Text GLabel 10440 5670 2    50   Input ~ 0
+GND_xx
+$Comp
+L Device:R R?
+U 1 1 630DB1AF
+P 9840 5820
+F 0 "R?" H 9690 5870 50  0000 L CNN
+F 1 "4K7" H 9640 5780 50  0000 L CNN
+F 2 "" V 9770 5820 50  0001 C CNN
+F 3 "~" H 9840 5820 50  0001 C CNN
+	1    9840 5820
+	-1   0    0    1   
+$EndComp
+Text GLabel 9730 5670 0    50   Input ~ 0
+GPIO_xx
+Text GLabel 2030 6620 2    50   Input ~ 0
+id_xx
+Connection ~ 1130 6820
+Wire Wire Line
+	1020 6820 1130 6820
+$Comp
+L Isolator:PC817 U?
+U 1 1 630FE921
+P 1430 6720
+F 0 "U?" H 1330 7020 50  0000 C CNN
+F 1 "PC817" H 1400 6930 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1230 6520 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1430 6720 50  0001 L CNN
+	1    1430 6720
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630FE927
+P 1130 7120
+F 0 "#PWR?" H 1130 6870 50  0001 C CNN
+F 1 "GND" H 1135 6947 50  0000 C CNN
+F 2 "" H 1130 7120 50  0001 C CNN
+F 3 "" H 1130 7120 50  0001 C CNN
+	1    1130 7120
+	1    0    0    -1  
+$EndComp
+Text GLabel 1130 6620 0    50   Input ~ 0
+5v_1
+$Comp
+L Device:R R?
+U 1 1 630FE92E
+P 1880 6620
+F 0 "R?" V 1740 6550 50  0000 L CNN
+F 1 "4K7" V 1670 6550 50  0000 L CNN
+F 2 "" V 1810 6620 50  0001 C CNN
+F 3 "~" H 1880 6620 50  0001 C CNN
+	1    1880 6620
+	0    1    1    0   
+$EndComp
+Text GLabel 1730 6820 2    50   Input ~ 0
+GND_xx
+$Comp
+L Device:R R?
+U 1 1 630FE935
+P 1130 6970
+F 0 "R?" H 980 7020 50  0000 L CNN
+F 1 "4K7" H 930 6930 50  0000 L CNN
+F 2 "" V 1060 6970 50  0001 C CNN
+F 3 "~" H 1130 6970 50  0001 C CNN
+	1    1130 6970
+	-1   0    0    1   
+$EndComp
+Text GLabel 1020 6820 0    50   Input ~ 0
+GPIO_xx
+Text GLabel 3760 6640 2    50   Input ~ 0
+id_xx
+Connection ~ 2860 6840
+Wire Wire Line
+	2750 6840 2860 6840
+$Comp
+L Isolator:PC817 U?
+U 1 1 630FE93F
+P 3160 6740
+F 0 "U?" H 3060 7040 50  0000 C CNN
+F 1 "PC817" H 3130 6950 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 2960 6540 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3160 6740 50  0001 L CNN
+	1    3160 6740
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 630FE945
+P 2860 7140
+F 0 "#PWR?" H 2860 6890 50  0001 C CNN
+F 1 "GND" H 2865 6967 50  0000 C CNN
+F 2 "" H 2860 7140 50  0001 C CNN
+F 3 "" H 2860 7140 50  0001 C CNN
+	1    2860 7140
+	1    0    0    -1  
+$EndComp
+Text GLabel 2860 6640 0    50   Input ~ 0
+5v_1
+$Comp
+L Device:R R?
+U 1 1 630FE94C
+P 3610 6640
+F 0 "R?" V 3470 6570 50  0000 L CNN
+F 1 "4K7" V 3400 6570 50  0000 L CNN
+F 2 "" V 3540 6640 50  0001 C CNN
+F 3 "~" H 3610 6640 50  0001 C CNN
+	1    3610 6640
+	0    1    1    0   
+$EndComp
+Text GLabel 3460 6840 2    50   Input ~ 0
+GND_xx
+$Comp
+L Device:R R?
+U 1 1 630FE953
+P 2860 6990
+F 0 "R?" H 2710 7040 50  0000 L CNN
+F 1 "4K7" H 2660 6950 50  0000 L CNN
+F 2 "" V 2790 6990 50  0001 C CNN
+F 3 "~" H 2860 6990 50  0001 C CNN
+	1    2860 6990
+	-1   0    0    1   
+$EndComp
+Text GLabel 2750 6840 0    50   Input ~ 0
+GPIO_xx
+Text GLabel 1730 5650 2    50   Input ~ 0
+GND_xx
+Text GLabel 6170 1260 0    50   Input ~ 0
+GPIO_18
+Text GLabel 8690 1260 0    50   Input ~ 0
+GPIO_22
+Text GLabel 8060 1900 2    50   Input ~ 0
+d_o_0
+Text GLabel 3930 1400 0    50   Input ~ 0
+d_o_0
+Text GLabel 3930 1500 0    50   Input ~ 0
+d_o_1
+Text GLabel 3930 1600 0    50   Input ~ 0
+d_o_2
+Text GLabel 3930 1900 0    50   Input ~ 0
+d_o_3
+Text GLabel 3930 2100 0    50   Input ~ 0
+d_o_5
+Text GLabel 3930 2000 0    50   Input ~ 0
+d_o_4
+Text GLabel 4800 1400 0    50   Input ~ 0
+d_i_0
+Text GLabel 4800 1500 0    50   Input ~ 0
+d_i_1
+Text GLabel 4800 1600 0    50   Input ~ 0
+d_i_2
+Text GLabel 4800 1900 0    50   Input ~ 0
+d_i_3
+Text GLabel 4800 2100 0    50   Input ~ 0
+d_i_5
+Text GLabel 4800 2000 0    50   Input ~ 0
+d_i_4
 $EndSCHEMATC
