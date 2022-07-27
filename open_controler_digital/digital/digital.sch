@@ -15,19 +15,19 @@ Comment4 ""
 $EndDescr
 Wire Notes Line
 	1090 690  1090 2820
-Text GLabel 2130 1210 2    50   Input ~ 0
+Text GLabel 1090 1210 0    50   Input ~ 0
 GND_2
-Text GLabel 2130 2010 2    50   Input ~ 0
+Text GLabel 1090 2010 0    50   Input ~ 0
 GND_5
-Text GLabel 2130 2210 2    50   Input ~ 0
+Text GLabel 1090 2210 0    50   Input ~ 0
 GPIO_5
-Text GLabel 2130 2310 2    50   Input ~ 0
+Text GLabel 1090 2310 0    50   Input ~ 0
 GPIO_6
-Text GLabel 2130 2410 2    50   Input ~ 0
+Text GLabel 1090 2410 0    50   Input ~ 0
 GPIO_13
-Text GLabel 2130 2510 2    50   Input ~ 0
+Text GLabel 1090 2510 0    50   Input ~ 0
 GPIO_19
-Text GLabel 2130 2710 2    50   Input ~ 0
+Text GLabel 1090 2710 0    50   Input ~ 0
 GND_8
 Wire Notes Line
 	2130 690  2130 2820
@@ -96,13 +96,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x10 J1
 U 1 1 61F5122B
-P 3960 1670
-F 0 "J1" H 4040 1662 50  0000 L CNN
-F 1 "d_o_01x10" H 3910 2200 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 3960 1670 50  0001 C CNN
-F 3 "~" H 3960 1670 50  0001 C CNN
-	1    3960 1670
-	1    0    0    -1  
+P 3900 1770
+F 0 "J1" H 3980 1762 50  0000 L CNN
+F 1 "d_o_01x10" H 3850 2300 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 3900 1770 50  0001 C CNN
+F 3 "~" H 3900 1770 50  0001 C CNN
+	1    3900 1770
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J2
@@ -528,7 +528,7 @@ L Device:R R31
 U 1 1 62C08FA4
 P 1880 5450
 F 0 "R31" V 1740 5380 50  0000 L CNN
-F 1 "4K7" V 1670 5380 50  0000 L CNN
+F 1 "4K7" V 1680 5380 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1810 5450 50  0001 C CNN
 F 3 "~" H 1880 5450 50  0001 C CNN
 	1    1880 5450
@@ -1140,15 +1140,15 @@ F 3 "~" H 8080 5830 50  0001 C CNN
 $EndComp
 Text GLabel 6170 1260 0    50   Input ~ 0
 GPIO_18
-Text GLabel 3760 1370 0    50   Input ~ 0
+Text GLabel 3700 1370 0    50   Input ~ 0
 do00
-Text GLabel 3760 1470 0    50   Input ~ 0
+Text GLabel 3700 1470 0    50   Input ~ 0
 do01
 Text GLabel 2890 4060 2    50   Input ~ 0
 do02
-Text GLabel 3760 1870 0    50   Input ~ 0
+Text GLabel 3700 1870 0    50   Input ~ 0
 do10
-Text GLabel 3760 2070 0    50   Input ~ 0
+Text GLabel 3700 2070 0    50   Input ~ 0
 do12
 Text GLabel 7890 4060 2    50   Input ~ 0
 do11
@@ -1164,13 +1164,13 @@ Text GLabel 4630 1870 0    50   Input ~ 0
 di32
 Text GLabel 4630 1770 0    50   Input ~ 0
 di31
-Text GLabel 3760 1270 0    50   Input ~ 0
+Text GLabel 3700 1270 0    50   Input ~ 0
 vo0
-Text GLabel 3760 1670 0    50   Input ~ 0
+Text GLabel 3700 1670 0    50   Input ~ 0
 go0
-Text GLabel 3760 1770 0    50   Input ~ 0
+Text GLabel 3700 1770 0    50   Input ~ 0
 vo1
-Text GLabel 3760 2170 0    50   Input ~ 0
+Text GLabel 3700 2170 0    50   Input ~ 0
 go1
 Text GLabel 4630 1570 0    50   Input ~ 0
 gi2
@@ -1184,15 +1184,15 @@ Text GLabel 6210 3420 0    50   Input ~ 0
 GPIO_25
 Text GLabel 8660 3420 0    50   Input ~ 0
 GPIO_5
-Text GLabel 6310 5680 0    50   Input ~ 0
-GPIO_19
-Text GLabel 7970 5680 0    50   Input ~ 0
-GPIO_16
 Text GLabel 4520 5680 0    50   Input ~ 0
-GPIO_13
+GPIO_19
 Text GLabel 2750 5670 0    50   Input ~ 0
+GPIO_16
+Text GLabel 6310 5680 0    50   Input ~ 0
+GPIO_13
+Text GLabel 7970 5680 0    50   Input ~ 0
 GPIO_12
-Text GLabel 1020 5650 0    50   Input ~ 0
+Text GLabel 9640 5680 0    50   Input ~ 0
 GPIO_6
 Wire Wire Line
 	5020 4060 5260 4060
@@ -1213,9 +1213,9 @@ Wire Wire Line
 	10190 4060 10340 4060
 Connection ~ 7740 4060
 Connection ~ 10190 4060
-Text GLabel 3760 1570 0    50   Input ~ 0
+Text GLabel 3700 1570 0    50   Input ~ 0
 do02
-Text GLabel 3760 1970 0    50   Input ~ 0
+Text GLabel 3700 1970 0    50   Input ~ 0
 do11
 Text GLabel 10340 4060 2    50   Input ~ 0
 do12
@@ -1249,11 +1249,11 @@ Text GLabel 7220 4720 0    50   Input ~ 0
 go1
 Text GLabel 9670 4720 0    50   Input ~ 0
 go1
-Text GLabel 1730 5650 2    50   Input ~ 0
+Text GLabel 1790 5650 2    50   Input ~ 0
 gi2
-Text GLabel 3460 5670 2    50   Input ~ 0
+Text GLabel 3520 5670 2    50   Input ~ 0
 gi2
-Text GLabel 5230 5680 2    50   Input ~ 0
+Text GLabel 5300 5680 2    50   Input ~ 0
 gi2
 Text GLabel 1130 5450 0    50   Input ~ 0
 5v_1
@@ -1265,9 +1265,9 @@ Text GLabel 8080 5480 0    50   Input ~ 0
 5v_1
 Text GLabel 6420 5480 0    50   Input ~ 0
 5v_1
-Text GLabel 8680 5680 2    50   Input ~ 0
+Text GLabel 8740 5680 2    50   Input ~ 0
 gi3
-Text GLabel 7020 5680 2    50   Input ~ 0
+Text GLabel 7080 5680 2    50   Input ~ 0
 gi3
 Text GLabel 4630 2070 0    50   Input ~ 0
 5v_1
@@ -1321,7 +1321,7 @@ Text GLabel 3960 6730 0    50   Input ~ 0
 GND_1
 Text GLabel 5410 4060 2    50   Input ~ 0
 do10
-Text GLabel 2130 1510 2    50   Input ~ 0
+Text GLabel 1090 1510 0    50   Input ~ 0
 GPIO_22
 Wire Wire Line
 	1090 1310 1360 1310
@@ -1415,12 +1415,12 @@ Text Notes 1860 2710 0    39   ~ 0
 GPIO_21
 Wire Wire Line
 	1090 1010 1360 1010
-NoConn ~ 1090 1110
-NoConn ~ 1090 1210
-NoConn ~ 1090 1910
-NoConn ~ 1090 2010
-NoConn ~ 1090 2110
-NoConn ~ 1090 2710
+NoConn ~ 2130 1110
+NoConn ~ 2130 1210
+NoConn ~ 2130 1910
+NoConn ~ 2130 2010
+NoConn ~ 2130 2110
+NoConn ~ 2130 2710
 Connection ~ 9750 5680
 Wire Wire Line
 	9640 5680 9750 5680
@@ -1468,13 +1468,13 @@ F 3 "~" H 9750 5830 50  0001 C CNN
 	1    9750 5830
 	-1   0    0    1   
 $EndComp
-Text GLabel 9640 5680 0    50   Input ~ 0
+Text GLabel 1020 5650 0    50   Input ~ 0
 GPIO_20
 Text GLabel 10650 5480 2    50   Input ~ 0
 di32
 Text GLabel 9750 5480 0    50   Input ~ 0
 5v_1
-Text GLabel 10350 5680 2    50   Input ~ 0
+Text GLabel 10410 5680 2    50   Input ~ 0
 gi3
 $Comp
 L power:GND #PWR04
@@ -1678,30 +1678,29 @@ $EndComp
 $Comp
 L Device:C C7
 U 1 1 62EF3CBB
-P 2860 6880
-F 0 "C7" H 2975 6926 50  0000 L CNN
-F 1 "C" H 2975 6835 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2898 6730 50  0001 C CNN
-F 3 "~" H 2860 6880 50  0001 C CNN
-	1    2860 6880
+P 2560 6880
+F 0 "C7" H 2675 6926 50  0000 L CNN
+F 1 "C" H 2675 6835 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2598 6730 50  0001 C CNN
+F 3 "~" H 2560 6880 50  0001 C CNN
+	1    2560 6880
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 62EFDD53
-P 2860 7030
-F 0 "#PWR015" H 2860 6780 50  0001 C CNN
-F 1 "GND" H 2865 6857 50  0000 C CNN
-F 2 "" H 2860 7030 50  0001 C CNN
-F 3 "" H 2860 7030 50  0001 C CNN
-	1    2860 7030
+P 2560 7030
+F 0 "#PWR015" H 2560 6780 50  0001 C CNN
+F 1 "GND" H 2565 6857 50  0000 C CNN
+F 2 "" H 2560 7030 50  0001 C CNN
+F 3 "" H 2560 7030 50  0001 C CNN
+	1    2560 7030
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2860 6730 3060 6730
 Wire Wire Line
 	3060 6730 3060 6880
-Connection ~ 2860 6730
 Wire Wire Line
 	1090 2010 1360 2010
 Wire Wire Line
@@ -1721,44 +1720,134 @@ F 3 "~" H 1560 1710 50  0001 C CNN
 	1    1560 1710
 	1    0    0    -1  
 $EndComp
-Text GLabel 1090 1010 0    50   Input ~ 0
+Text GLabel 2130 1010 2    50   Input ~ 0
 GND_1
-Text GLabel 1090 1310 0    50   Input ~ 0
+Text GLabel 2130 1310 2    50   Input ~ 0
 GPIO_18
-Text GLabel 1090 2610 0    50   Input ~ 0
+Text GLabel 2130 2610 2    50   Input ~ 0
 GPIO_20
-Text GLabel 1090 2510 0    50   Input ~ 0
+Text GLabel 2130 2510 2    50   Input ~ 0
 GPIO_16
-Text GLabel 1090 2410 0    50   Input ~ 0
+Text GLabel 2130 2410 2    50   Input ~ 0
 GND_7
-Text GLabel 1090 2310 0    50   Input ~ 0
+Text GLabel 2130 2310 2    50   Input ~ 0
 GPIO_12
-Text GLabel 1090 2210 0    50   Input ~ 0
+Text GLabel 2130 2210 2    50   Input ~ 0
 GND_6
-Text GLabel 1090 1810 0    50   Input ~ 0
+Text GLabel 2130 1810 2    50   Input ~ 0
 GPIO_25
-Text GLabel 1090 1710 0    50   Input ~ 0
+Text GLabel 2130 1710 2    50   Input ~ 0
 GND_4
-Text GLabel 1090 1610 0    50   Input ~ 0
+Text GLabel 2130 1610 2    50   Input ~ 0
 GPIO_24
-Text GLabel 1090 1510 0    50   Input ~ 0
+Text GLabel 2130 1510 2    50   Input ~ 0
 GPIO_23
-Text GLabel 1090 1410 0    50   Input ~ 0
+Text GLabel 2130 1410 2    50   Input ~ 0
 GND_3
-Text GLabel 1090 910  0    50   Input ~ 0
+Text GLabel 2130 910  2    50   Input ~ 0
 5v_2
-Text GLabel 1090 810  0    50   Input ~ 0
+Text GLabel 2130 810  2    50   Input ~ 0
 5v_1
-NoConn ~ 2130 1110
-NoConn ~ 2130 1710
-NoConn ~ 2130 1610
-NoConn ~ 2130 1910
-NoConn ~ 2130 1810
-NoConn ~ 2130 2110
-NoConn ~ 2130 1310
-NoConn ~ 2130 1010
-NoConn ~ 2130 910 
-NoConn ~ 2130 810 
-NoConn ~ 2130 2610
-NoConn ~ 2130 1410
+NoConn ~ 1090 1110
+NoConn ~ 1090 1710
+NoConn ~ 1090 1610
+NoConn ~ 1090 1910
+NoConn ~ 1090 1810
+NoConn ~ 1090 2110
+NoConn ~ 1090 1310
+NoConn ~ 1090 1010
+NoConn ~ 1090 910 
+NoConn ~ 1090 810 
+NoConn ~ 1090 2610
+NoConn ~ 1090 1410
+$Comp
+L Device:C_Small C8
+U 1 1 62D5CD62
+P 1730 5550
+F 0 "C8" H 1640 5310 50  0000 L CNN
+F 1 "10" H 1650 5240 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1730 5550 50  0001 C CNN
+F 3 "~" H 1730 5550 50  0001 C CNN
+	1    1730 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1730 5450
+Wire Wire Line
+	1730 5650 1790 5650
+Connection ~ 1730 5650
+$Comp
+L Device:C_Small C9
+U 1 1 62D785F7
+P 3460 5570
+F 0 "C9" H 3370 5330 50  0000 L CNN
+F 1 "10" H 3380 5260 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3460 5570 50  0001 C CNN
+F 3 "~" H 3460 5570 50  0001 C CNN
+	1    3460 5570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 62D78D4E
+P 5230 5580
+F 0 "C10" H 5140 5340 50  0000 L CNN
+F 1 "10" H 5150 5270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5230 5580 50  0001 C CNN
+F 3 "~" H 5230 5580 50  0001 C CNN
+	1    5230 5580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 62D79991
+P 7020 5580
+F 0 "C11" H 6930 5340 50  0000 L CNN
+F 1 "10" H 6940 5270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7020 5580 50  0001 C CNN
+F 3 "~" H 7020 5580 50  0001 C CNN
+	1    7020 5580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 62D7CCE2
+P 8680 5580
+F 0 "C12" H 8590 5340 50  0000 L CNN
+F 1 "10" H 8600 5270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8680 5580 50  0001 C CNN
+F 3 "~" H 8680 5580 50  0001 C CNN
+	1    8680 5580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 62D7CCEC
+P 10350 5580
+F 0 "C13" H 10260 5340 50  0000 L CNN
+F 1 "10" H 10270 5270 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10350 5580 50  0001 C CNN
+F 3 "~" H 10350 5580 50  0001 C CNN
+	1    10350 5580
+	1    0    0    -1  
+$EndComp
+Connection ~ 3460 5470
+Wire Wire Line
+	3460 5670 3520 5670
+Connection ~ 3460 5670
+Connection ~ 5230 5480
+Connection ~ 7020 5480
+Connection ~ 8680 5480
+Connection ~ 10350 5480
+Wire Wire Line
+	5230 5680 5300 5680
+Connection ~ 5230 5680
+Wire Wire Line
+	7020 5680 7080 5680
+Connection ~ 7020 5680
+Wire Wire Line
+	8680 5680 8740 5680
+Connection ~ 8680 5680
+Wire Wire Line
+	10350 5680 10410 5680
+Connection ~ 10350 5680
 $EndSCHEMATC
