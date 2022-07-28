@@ -1850,26 +1850,4 @@ Connection ~ 8680 5680
 Wire Wire Line
 	10350 5680 10410 5680
 Connection ~ 10350 5680
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 62E7BCAA
-P 5110 6880
-F 0 "H?" H 5210 6929 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5210 6838 50  0000 L CNN
-F 2 "" H 5110 6880 50  0001 C CNN
-F 3 "~" H 5110 6880 50  0001 C CNN
-	1    5110 6880
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62E84B20
-P 5110 6980
-F 0 "#PWR?" H 5110 6730 50  0001 C CNN
-F 1 "GND" H 5115 6807 50  0000 C CNN
-F 2 "" H 5110 6980 50  0001 C CNN
-F 3 "" H 5110 6980 50  0001 C CNN
-	1    5110 6980
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
