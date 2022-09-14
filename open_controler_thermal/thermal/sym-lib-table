@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name wat-rescue)(type Legacy)(uri /home/oscar/git/iotlibre/ecotherm/hardware/iot_esquemas/wat-rescue.lib)(options "")(descr ""))
+  (lib (name ESP32_NODEMCU)(type Legacy)(uri /home/oscar/git/onsar/open_controler_hw/open_controler_thermal/ESP32-DEVKITC-32D/ESP32_NODEMCU.lib)(options "")(descr ""))
 )
