@@ -373,7 +373,7 @@ Wire Notes Line
 	10925 2635 10935 2635
 NoConn ~ 4875 -920
 $Comp
-L wat-rescue:C C2
+L digital-rescue:C-wat-rescue C2
 U 1 1 5FF955E2
 P 1530 3830
 F 0 "C2" H 1555 3930 50  0000 L CNN
@@ -384,7 +384,7 @@ F 3 "" H 1530 3830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R7
+L digital-rescue:R-wat-rescue R7
 U 1 1 5FF955F0
 P 1220 3830
 F 0 "R7" H 1105 3905 50  0000 C CNN
@@ -395,7 +395,7 @@ F 3 "" H 1220 3830 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L wat-rescue:R R1
+L digital-rescue:R-wat-rescue R1
 U 1 1 5FF955F7
 P 930 3610
 F 0 "R1" V 1010 3610 50  0000 C CNN
@@ -440,7 +440,7 @@ Wire Wire Line
 Wire Wire Line
 	1080 3610 1220 3610
 $Comp
-L wat-rescue:C C8
+L digital-rescue:C-wat-rescue C8
 U 1 1 5FFB1A03
 P 1090 5465
 F 0 "C8" H 1115 5565 50  0000 L CNN
@@ -462,7 +462,7 @@ F 3 "" H 1090 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R13
+L digital-rescue:R-wat-rescue R13
 U 1 1 5FFB1A2C
 P 1090 5025
 F 0 "R13" V 1170 5025 50  0000 C CNN
@@ -480,7 +480,7 @@ Wire Wire Line
 Wire Wire Line
 	1090 4875 1090 4695
 $Comp
-L wat-rescue:C C3
+L digital-rescue:C-wat-rescue C3
 U 1 1 5FFCF401
 P 3150 3830
 F 0 "C3" H 3175 3930 50  0000 L CNN
@@ -491,7 +491,7 @@ F 3 "" H 3150 3830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R8
+L digital-rescue:R-wat-rescue R8
 U 1 1 5FFCF40F
 P 2840 3830
 F 0 "R8" H 2725 3905 50  0000 C CNN
@@ -502,7 +502,7 @@ F 3 "" H 2840 3830 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L wat-rescue:R R2
+L digital-rescue:R-wat-rescue R2
 U 1 1 5FFCF416
 P 2550 3610
 F 0 "R2" V 2630 3610 50  0000 C CNN
@@ -547,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3610 2840 3610
 $Comp
-L wat-rescue:C C4
+L digital-rescue:C-wat-rescue C4
 U 1 1 5FFD4082
 P 4780 3830
 F 0 "C4" H 4805 3930 50  0000 L CNN
@@ -558,7 +558,7 @@ F 3 "" H 4780 3830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R9
+L digital-rescue:R-wat-rescue R9
 U 1 1 5FFD4090
 P 4470 3830
 F 0 "R9" H 4355 3905 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "" H 4470 3830 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L wat-rescue:R R3
+L digital-rescue:R-wat-rescue R3
 U 1 1 5FFD4097
 P 4180 3610
 F 0 "R3" V 4260 3610 50  0000 C CNN
@@ -614,7 +614,7 @@ Wire Wire Line
 Wire Wire Line
 	4330 3610 4470 3610
 $Comp
-L wat-rescue:C C5
+L digital-rescue:C-wat-rescue C5
 U 1 1 5FFD40B3
 P 6490 3830
 F 0 "C5" H 6515 3930 50  0000 L CNN
@@ -625,7 +625,7 @@ F 3 "" H 6490 3830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R10
+L digital-rescue:R-wat-rescue R10
 U 1 1 5FFD40C1
 P 6180 3830
 F 0 "R10" H 6065 3905 50  0000 C CNN
@@ -636,7 +636,7 @@ F 3 "" H 6180 3830 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L wat-rescue:R R4
+L digital-rescue:R-wat-rescue R4
 U 1 1 5FFD40C8
 P 5890 3610
 F 0 "R4" V 5970 3610 50  0000 C CNN
@@ -681,7 +681,7 @@ Wire Wire Line
 Wire Wire Line
 	6040 3610 6180 3610
 $Comp
-L wat-rescue:C C6
+L digital-rescue:C-wat-rescue C6
 U 1 1 5FFEEFC9
 P 8215 3830
 F 0 "C6" H 8240 3930 50  0000 L CNN
@@ -692,7 +692,7 @@ F 3 "" H 8215 3830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R11
+L digital-rescue:R-wat-rescue R11
 U 1 1 5FFEEFD7
 P 7905 3830
 F 0 "R11" H 7790 3905 50  0000 C CNN
@@ -703,7 +703,7 @@ F 3 "" H 7905 3830 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L wat-rescue:R R5
+L digital-rescue:R-wat-rescue R5
 U 1 1 5FFEEFDE
 P 7615 3610
 F 0 "R5" V 7695 3610 50  0000 C CNN
@@ -745,7 +745,7 @@ Wire Wire Line
 Wire Wire Line
 	7765 3610 7905 3610
 $Comp
-L wat-rescue:C C7
+L digital-rescue:C-wat-rescue C7
 U 1 1 5FFEEFFA
 P 9835 3830
 F 0 "C7" H 9860 3930 50  0000 L CNN
@@ -756,7 +756,7 @@ F 3 "" H 9835 3830 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R12
+L digital-rescue:R-wat-rescue R12
 U 1 1 5FFEF008
 P 9525 3830
 F 0 "R12" H 9410 3905 50  0000 C CNN
@@ -767,7 +767,7 @@ F 3 "" H 9525 3830 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L wat-rescue:R R6
+L digital-rescue:R-wat-rescue R6
 U 1 1 5FFEF00F
 P 9235 3610
 F 0 "R6" V 9315 3610 50  0000 C CNN
@@ -812,7 +812,7 @@ Wire Wire Line
 Wire Wire Line
 	9385 3610 9525 3610
 $Comp
-L wat-rescue:C C9
+L digital-rescue:C-wat-rescue C9
 U 1 1 5FFFA89D
 P 2065 5465
 F 0 "C9" H 2090 5565 50  0000 L CNN
@@ -834,7 +834,7 @@ F 3 "" H 2065 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R14
+L digital-rescue:R-wat-rescue R14
 U 1 1 5FFFA8B2
 P 2065 5025
 F 0 "R14" V 2145 5025 50  0000 C CNN
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	2065 4875 2065 4695
 $Comp
-L wat-rescue:C C10
+L digital-rescue:C-wat-rescue C10
 U 1 1 5FFFF00A
 P 3045 5465
 F 0 "C10" H 3070 5565 50  0000 L CNN
@@ -874,7 +874,7 @@ F 3 "" H 3045 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R15
+L digital-rescue:R-wat-rescue R15
 U 1 1 5FFFF01F
 P 3045 5025
 F 0 "R15" V 3125 5025 50  0000 C CNN
@@ -892,7 +892,7 @@ Wire Wire Line
 Wire Wire Line
 	3045 4875 3045 4695
 $Comp
-L wat-rescue:C C11
+L digital-rescue:C-wat-rescue C11
 U 1 1 6004F39B
 P 4020 5465
 F 0 "C11" H 4045 5565 50  0000 L CNN
@@ -914,7 +914,7 @@ F 3 "" H 4020 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R16
+L digital-rescue:R-wat-rescue R16
 U 1 1 6004F3B0
 P 4020 5025
 F 0 "R16" V 4100 5025 50  0000 C CNN
@@ -932,7 +932,7 @@ Wire Wire Line
 Wire Wire Line
 	4020 4875 4020 4695
 $Comp
-L wat-rescue:C C12
+L digital-rescue:C-wat-rescue C12
 U 1 1 6004F3BE
 P 5065 5465
 F 0 "C12" H 5090 5565 50  0000 L CNN
@@ -954,7 +954,7 @@ F 3 "" H 5065 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R17
+L digital-rescue:R-wat-rescue R17
 U 1 1 6004F3D3
 P 5065 5025
 F 0 "R17" V 5145 5025 50  0000 C CNN
@@ -972,7 +972,7 @@ Wire Wire Line
 Wire Wire Line
 	5065 4875 5065 4695
 $Comp
-L wat-rescue:C C13
+L digital-rescue:C-wat-rescue C13
 U 1 1 6004F3E1
 P 6190 5465
 F 0 "C13" H 6215 5565 50  0000 L CNN
@@ -994,7 +994,7 @@ F 3 "" H 6190 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R18
+L digital-rescue:R-wat-rescue R18
 U 1 1 6004F3F6
 P 6190 5025
 F 0 "R18" V 6270 5025 50  0000 C CNN
@@ -1014,7 +1014,7 @@ Wire Wire Line
 Wire Wire Line
 	6190 4875 6190 4695
 $Comp
-L wat-rescue:C C14
+L digital-rescue:C-wat-rescue C14
 U 1 1 60054BD1
 P 7280 5465
 F 0 "C14" H 7305 5565 50  0000 L CNN
@@ -1036,7 +1036,7 @@ F 3 "" H 7280 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R19
+L digital-rescue:R-wat-rescue R19
 U 1 1 60054BE6
 P 7280 5025
 F 0 "R19" V 7360 5025 50  0000 C CNN
@@ -1056,7 +1056,7 @@ Wire Wire Line
 Wire Notes Line
 	5505 4210 5510 4210
 $Comp
-L wat-rescue:NANO-nano Uxxx1
+L digital-rescue:NANO-nano-wat-rescue Uxxx1
 U 1 1 62EAD1BE
 P 6465 2045
 F 0 "Uxxx1" H 6465 3110 50  0000 C CNN
@@ -1193,7 +1193,7 @@ jD7
 Text GLabel 7025 5245 0    60   Input ~ 0
 jD8
 $Comp
-L wat-rescue:C C15
+L digital-rescue:C-wat-rescue C15
 U 1 1 6304975A
 P 8360 5465
 F 0 "C15" H 8385 5565 50  0000 L CNN
@@ -1215,7 +1215,7 @@ F 3 "" H 8360 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R20
+L digital-rescue:R-wat-rescue R20
 U 1 1 63049766
 P 8360 5025
 F 0 "R20" V 8440 5025 50  0000 C CNN
@@ -1233,7 +1233,7 @@ Wire Wire Line
 Wire Wire Line
 	8360 4875 8360 4695
 $Comp
-L wat-rescue:C C16
+L digital-rescue:C-wat-rescue C16
 U 1 1 63049771
 P 9485 5465
 F 0 "C16" H 9510 5565 50  0000 L CNN
@@ -1255,7 +1255,7 @@ F 3 "" H 9485 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R21
+L digital-rescue:R-wat-rescue R21
 U 1 1 6304977D
 P 9485 5025
 F 0 "R21" V 9565 5025 50  0000 C CNN
@@ -1287,7 +1287,7 @@ jD9
 Text GLabel 9230 5245 0    60   Input ~ 0
 jD10
 $Comp
-L wat-rescue:C C17
+L digital-rescue:C-wat-rescue C17
 U 1 1 63098281
 P 10615 5465
 F 0 "C17" H 10640 5565 50  0000 L CNN
@@ -1309,7 +1309,7 @@ F 3 "" H 10615 5615 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R22
+L digital-rescue:R-wat-rescue R22
 U 1 1 6309828D
 P 10615 5025
 F 0 "R22" V 10695 5025 50  0000 C CNN
@@ -1327,7 +1327,7 @@ Wire Wire Line
 Wire Wire Line
 	10615 4875 10615 4695
 $Comp
-L wat-rescue:C C18
+L digital-rescue:C-wat-rescue C18
 U 1 1 63098298
 P 1135 6920
 F 0 "C18" H 1160 7020 50  0000 L CNN
@@ -1349,7 +1349,7 @@ F 3 "" H 1135 7070 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R27
+L digital-rescue:R-wat-rescue R27
 U 1 1 630982A4
 P 1135 6480
 F 0 "R27" V 1215 6480 50  0000 C CNN
@@ -1367,7 +1367,7 @@ Wire Wire Line
 Wire Wire Line
 	1135 6330 1135 6150
 $Comp
-L wat-rescue:C C19
+L digital-rescue:C-wat-rescue C19
 U 1 1 630982AF
 P 2215 6920
 F 0 "C19" H 2240 7020 50  0000 L CNN
@@ -1389,7 +1389,7 @@ F 3 "" H 2215 7070 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L wat-rescue:R R28
+L digital-rescue:R-wat-rescue R28
 U 1 1 630982BB
 P 2215 6480
 F 0 "R28" V 2295 6480 50  0000 C CNN
@@ -1470,7 +1470,7 @@ Wire Wire Line
 Text GLabel 5110 3610 2    50   Input ~ 0
 A2
 $Comp
-L wat-rescue:R R26
+L digital-rescue:R-wat-rescue R26
 U 1 1 635746A0
 P 3200 6475
 F 0 "R26" V 3280 6475 50  0000 C CNN
@@ -1490,7 +1490,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 6695 3455 6695
 $Comp
-L wat-rescue:R R25
+L digital-rescue:R-wat-rescue R25
 U 1 1 635746BC
 P 4125 6470
 F 0 "R25" V 4205 6470 50  0000 C CNN
@@ -1508,7 +1508,7 @@ Wire Wire Line
 Wire Wire Line
 	4125 6320 4125 6140
 $Comp
-L wat-rescue:R R23
+L digital-rescue:R-wat-rescue R23
 U 1 1 635746D2
 P 5005 6465
 F 0 "R23" V 5085 6465 50  0000 C CNN
@@ -1530,7 +1530,7 @@ Wire Wire Line
 Wire Wire Line
 	4125 6690 4380 6690
 $Comp
-L wat-rescue:R R24
+L digital-rescue:R-wat-rescue R24
 U 1 1 635746EF
 P 5925 6465
 F 0 "R24" V 6005 6465 50  0000 C CNN
@@ -1717,4 +1717,18 @@ Text GLabel 10465 2700 0    50   Input ~ 0
 jG7
 Text GLabel 10465 2800 0    50   Input ~ 0
 jG21
+$Comp
+L ESP32_NODEMCU:ESP32_NODEMCU_OS U?
+U 1 1 63259B0B
+P 12750 1650
+F 0 "U?" H 12750 3017 50  0000 C CNN
+F 1 "ESP32_NODEMCU_OS" H 12750 2926 50  0000 C CNN
+F 2 "MODULE_ESP32_NODEMCU" H 10920 2690 50  0001 L BNN
+F 3 "" H 12750 1650 50  0001 L BNN
+F 4 "Espressif" H 12750 1650 50  0001 L BNN "MANUFACTURER"
+F 5 "6.6 mm" H 11530 3020 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 12320 3030 50  0001 L BNN "STANDARD"
+	1    12750 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

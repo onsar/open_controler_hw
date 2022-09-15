@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name Raspberry-Pi-4-library-for-kicad)(type KiCad)(uri /home/oscar/git/onsar/open_controler_hw/open_controler_digital/Raspberry-Pi-4-library-for-kicad)(options "")(descr ""))
-  (lib (name ESP32-DEVKITC-32D)(type KiCad)(uri /home/oscar/git/onsar/open_controler_hw/open_controler_thermal/ESP32-DEVKITC-32D)(options "")(descr ""))
-  (lib (name Espressif)(type KiCad)(uri /home/oscar/git/onsar/open_controler_hw/open_controler_thermal/Espressif.pretty)(options "")(descr ""))
+  (lib (name ESP32-DEVKITC-32D)(type KiCad)(uri /home/oscar/git/open_controler_hw/open_controler_thermal/ESP32-DEVKITC-32D)(options "")(descr ""))
+  (lib (name Espressif)(type KiCad)(uri /home/oscar/git/open_controler_hw/open_controler_thermal/Espressif.pretty)(options "")(descr ""))
 )
