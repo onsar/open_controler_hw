@@ -1,4 +1,4 @@
-16964285699074209
+16977618044922911
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44215,6 +44215,62 @@ Crystal
 Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm
 Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
 THT ceramic resonator filter DSS6
+0
+3
+3
+Digital
+C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Digital
+DIP-4_W8.89mm_SMDSocket_LongPads
+4-lead though-hole mounted DIP package, row spacing 8.89 mm (350 mils), SMDSocket, LongPads
+THT DIP DIL PDIP 2.54mm 8.89mm 350mil SMDSocket LongPads
+0
+4
+4
+Digital
+D_2114_3652Metric
+Diode SMD 2114 (3652 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/schottky.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Digital
+PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-3.5; number of pins: 02; pin pitch: 3.50mm; Vertical || order number: 1843606 8A 160V
+phoenix_contact connector MCV_01x02_G_3.5mm
+0
+2
+2
+Digital
+PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/10-G-3.5; number of pins: 10; pin pitch: 3.50mm; Vertical || order number: 1843680 8A 160V
+phoenix_contact connector MCV_01x10_G_3.5mm
+0
+10
+10
+Digital
+PinHeader_2x20_P2.54mm_Vertical
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+Digital
+R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Digital
+SOT-23
+SOT-23, Standard
+SOT-23
 0
 3
 3
