@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Raspberry-Pi-4-library-for-kicad)(type KiCad)(uri /home/oscar/git/onsar/open_controler_hw/open_controler_digital/Raspberry-Pi-4-library-for-kicad)(options "")(descr ""))
+  (lib (name digital)(type KiCad)(uri ${KIPRJMOD}/digital.pretty)(options "")(descr ""))
 )
