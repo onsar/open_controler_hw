@@ -19,91 +19,17 @@ U 1 1 61D21F67
 P 2280 2120
 F 0 "J1" H 2330 3237 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 2330 3146 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 2280 2120 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Horizontal" H 2280 2120 50  0001 C CNN
 F 3 "~" H 2280 2120 50  0001 C CNN
 	1    2280 2120
 	1    0    0    -1  
 $EndComp
-Text GLabel 1810 1220 0    50   Input ~ 0
-3v3_1
 Wire Notes Line
 	1810 1100 1810 3230
-Text GLabel 1810 1320 0    50   Input ~ 0
-GPIO_2
-Text GLabel 1810 1420 0    50   Input ~ 0
-GPIO_3
-Text GLabel 1810 1520 0    50   Input ~ 0
-GPIO_4
-Text GLabel 1810 1620 0    50   Input ~ 0
-GND_2
-Text GLabel 1810 1720 0    50   Input ~ 0
-GPIO_17
-Text GLabel 1810 1920 0    50   Input ~ 0
-GPIO_22
-Text GLabel 1810 2020 0    50   Input ~ 0
-3v3_2
-Text GLabel 1810 2120 0    50   Input ~ 0
-GPIO_10
-Text GLabel 1810 2220 0    50   Input ~ 0
-GPIO_9
-Text GLabel 1810 2320 0    50   Input ~ 0
-GPIO_11
-Text GLabel 1810 2420 0    50   Input ~ 0
-GND_5
-Text GLabel 1810 2520 0    50   Input ~ 0
-GPIO_0
-Text GLabel 1810 2620 0    50   Input ~ 0
-GPIO_5
-Text GLabel 1810 2720 0    50   Input ~ 0
-GPIO_6
-Text GLabel 1810 2820 0    50   Input ~ 0
-GPIO_13
-Text GLabel 1810 2920 0    50   Input ~ 0
-GPIO_19
-Text GLabel 1810 3120 0    50   Input ~ 0
-GND_8
 Wire Wire Line
 	1810 1220 2080 1220
 Wire Notes Line
 	2850 1100 2850 3230
-Text GLabel 2850 1220 2    50   Input ~ 0
-5v_1
-Text GLabel 2850 1320 2    50   Input ~ 0
-5v_2
-Text GLabel 2850 1420 2    50   Input ~ 0
-GND_1
-Text GLabel 2850 1520 2    50   Input ~ 0
-GPIO_14
-Text GLabel 2850 1620 2    50   Input ~ 0
-GPIO_15
-Text GLabel 2850 1820 2    50   Input ~ 0
-GND_3
-Text GLabel 2850 1920 2    50   Input ~ 0
-GPIO_23
-Text GLabel 2850 2020 2    50   Input ~ 0
-GPIO_24
-Text GLabel 2850 2120 2    50   Input ~ 0
-GND_4
-Text GLabel 2850 2220 2    50   Input ~ 0
-GPIO_25
-Text GLabel 2850 2320 2    50   Input ~ 0
-GPIO_8
-Text GLabel 2850 2420 2    50   Input ~ 0
-GPIO_7
-Text GLabel 2850 2520 2    50   Input ~ 0
-GPIO_1
-Text GLabel 2850 2620 2    50   Input ~ 0
-GND_6
-Text GLabel 2850 2720 2    50   Input ~ 0
-GPIO_12
-Text GLabel 2850 2820 2    50   Input ~ 0
-GND_7
-Text GLabel 2850 2920 2    50   Input ~ 0
-GPIO_16
-Text GLabel 2850 3020 2    50   Input ~ 0
-GPIO_20
-Text GLabel 2850 3120 2    50   Input ~ 0
-GPIO_21
 Wire Wire Line
 	1810 1320 2080 1320
 Wire Wire Line
@@ -155,8 +81,6 @@ Wire Wire Line
 Wire Wire Line
 	2580 1720 2850 1720
 Wire Wire Line
-	2580 1820 2850 1820
-Wire Wire Line
 	2580 1920 2850 1920
 Wire Wire Line
 	2580 2020 2850 2020
@@ -179,8 +103,6 @@ Wire Wire Line
 Wire Wire Line
 	2580 2920 2850 2920
 Wire Wire Line
-	2580 3020 2850 3020
-Wire Wire Line
 	2580 3120 2850 3120
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J3
@@ -188,7 +110,7 @@ U 1 1 61DFB816
 P 6300 2120
 F 0 "J3" H 6350 3237 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 6350 3146 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6300 2120 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 6300 2120 50  0001 C CNN
 F 3 "~" H 6300 2120 50  0001 C CNN
 	1    6300 2120
 	1    0    0    -1  
@@ -353,12 +275,8 @@ Wire Wire Line
 	6600 3020 6870 3020
 Wire Wire Line
 	6600 3120 6870 3120
-NoConn ~ 1810 1820
-NoConn ~ 1810 3020
 Wire Notes Line
 	6870 1100 6870 3230
-Text GLabel 2850 1720 2    50   Input ~ 0
-GPIO_18
 Wire Wire Line
 	6600 1720 6870 1720
 $Comp
@@ -367,7 +285,7 @@ U 1 1 61E47CFB
 P 4290 2120
 F 0 "J2" H 4340 3237 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 4340 3146 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4290 2120 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 4290 2120 50  0001 C CNN
 F 3 "~" H 4290 2120 50  0001 C CNN
 	1    4290 2120
 	1    0    0    -1  
@@ -542,7 +460,7 @@ U 1 1 61DCB14E
 P 8320 2120
 F 0 "J4" H 8370 3237 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 8370 3146 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8320 2120 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 8320 2120 50  0001 C CNN
 F 3 "~" H 8320 2120 50  0001 C CNN
 	1    8320 2120
 	1    0    0    -1  
@@ -711,4 +629,82 @@ Wire Notes Line
 	8890 1100 8890 3230
 Wire Wire Line
 	8620 1720 8890 1720
+Text GLabel 1810 1220 0    50   Input ~ 0
+5v_1
+Text GLabel 1810 1320 0    50   Input ~ 0
+5v_2
+Text GLabel 1810 1420 0    50   Input ~ 0
+GND_1
+Text GLabel 1810 1520 0    50   Input ~ 0
+GPIO_14
+Text GLabel 1810 1620 0    50   Input ~ 0
+GPIO_15
+Text GLabel 1810 1720 0    50   Input ~ 0
+GPIO_18
+Text GLabel 1810 1820 0    50   Input ~ 0
+GND_3
+Text GLabel 1810 1920 0    50   Input ~ 0
+GPIO_23
+Text GLabel 1810 2020 0    50   Input ~ 0
+GPIO_24
+Text GLabel 1810 2120 0    50   Input ~ 0
+GND_4
+Text GLabel 1810 2220 0    50   Input ~ 0
+GPIO_25
+Text GLabel 1810 2320 0    50   Input ~ 0
+GPIO_8
+Text GLabel 1810 2420 0    50   Input ~ 0
+GPIO_7
+Text GLabel 1810 2520 0    50   Input ~ 0
+GPIO_1
+Text GLabel 1810 2620 0    50   Input ~ 0
+GND_6
+Text GLabel 1810 2720 0    50   Input ~ 0
+GPIO_12
+Text GLabel 1810 2820 0    50   Input ~ 0
+GND_7
+Text GLabel 1810 2920 0    50   Input ~ 0
+GPIO_16
+Text GLabel 1810 3020 0    50   Input ~ 0
+GPIO_20
+Text GLabel 1810 3120 0    50   Input ~ 0
+GPIO_21
+Text GLabel 2850 1220 2    50   Input ~ 0
+3v3_1
+Text GLabel 2850 1320 2    50   Input ~ 0
+GPIO_2
+Text GLabel 2850 1420 2    50   Input ~ 0
+GPIO_3
+Text GLabel 2850 1520 2    50   Input ~ 0
+GPIO_4
+Text GLabel 2850 1620 2    50   Input ~ 0
+GND_2
+Text GLabel 2850 1720 2    50   Input ~ 0
+GPIO_17
+Text GLabel 2850 1920 2    50   Input ~ 0
+GPIO_22
+Text GLabel 2850 2020 2    50   Input ~ 0
+3v3_2
+Text GLabel 2850 2120 2    50   Input ~ 0
+GPIO_10
+Text GLabel 2850 2220 2    50   Input ~ 0
+GPIO_9
+Text GLabel 2850 2320 2    50   Input ~ 0
+GPIO_11
+Text GLabel 2850 2420 2    50   Input ~ 0
+GND_5
+Text GLabel 2850 2520 2    50   Input ~ 0
+GPIO_0
+Text GLabel 2850 2620 2    50   Input ~ 0
+GPIO_5
+Text GLabel 2850 2720 2    50   Input ~ 0
+GPIO_6
+Text GLabel 2850 2820 2    50   Input ~ 0
+GPIO_13
+Text GLabel 2850 2920 2    50   Input ~ 0
+GPIO_19
+Text GLabel 2850 3120 2    50   Input ~ 0
+GND_8
+NoConn ~ 2580 3020
+NoConn ~ 2580 1820
 $EndSCHEMATC
