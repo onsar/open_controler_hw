@@ -82,13 +82,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 622B6D5E
-P 1130 955
-F 0 "J1" H 1210 947 50  0000 L CNN
-F 1 "Conn_01x02" H 760 1145 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 1130 955 50  0001 C CNN
-F 3 "~" H 1130 955 50  0001 C CNN
-	1    1130 955 
-	1    0    0    -1  
+P 1130 1055
+F 0 "J1" H 1210 1047 50  0000 L CNN
+F 1 "Conn_01x02" H 760 1245 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 1130 1055 50  0001 C CNN
+F 3 "~" H 1130 1055 50  0001 C CNN
+	1    1130 1055
+	1    0    0    1   
 $EndComp
 Text GLabel 930  955  0    50   Input ~ 0
 5v

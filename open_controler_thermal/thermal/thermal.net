@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/oscar/git/open_controler_hw/open_controler_thermal/thermal/digital.sch)
-    (date "jue 10 jul 2025 10:30:55")
+    (date "jue 10 jul 2025 11:00:59")
     (tool "Eeschema 5.1.12-84ad8e8a86~92~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -38,7 +38,7 @@
       (tstamp 62EF3CBB))
     (comp (ref J2)
       (value Conn_02x20_Odd_Even)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical)
+      (footprint Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_02x20_Odd_Even) (description "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))

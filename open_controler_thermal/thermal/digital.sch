@@ -269,7 +269,7 @@ U 1 1 61D21F67
 P 3630 1780
 F 0 "J2" H 3680 2897 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 3680 2806 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 3630 1780 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3630 1780 50  0001 C CNN
 F 3 "~" H 3630 1780 50  0001 C CNN
 	1    3630 1780
 	1    0    0    -1  
