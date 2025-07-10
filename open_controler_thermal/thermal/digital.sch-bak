@@ -85,7 +85,7 @@ U 1 1 622B6D5E
 P 1130 955
 F 0 "J1" H 1210 947 50  0000 L CNN
 F 1 "Conn_01x02" H 760 1145 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 1130 955 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 1130 955 50  0001 C CNN
 F 3 "~" H 1130 955 50  0001 C CNN
 	1    1130 955 
 	1    0    0    -1  
@@ -1570,15 +1570,15 @@ Text GLabel 4200 1180 2    50   Input ~ 0
 TXD
 Text GLabel 4200 1280 2    50   Input ~ 0
 RXD
-Text GLabel 4200 1380 2    50   Input ~ 0
+Text GLabel 4200 1880 2    50   Input ~ 0
 o23
 Text GLabel 4200 1580 2    50   Input ~ 0
 o18
-Text GLabel 3160 1580 0    50   Input ~ 0
-o19
 Text GLabel 4200 1680 2    50   Input ~ 0
+o19
+Text GLabel 3160 1580 0    50   Input ~ 0
 o05
-Text GLabel 4200 1880 2    50   Input ~ 0
+Text GLabel 4200 1380 2    50   Input ~ 0
 o04
 Text GLabel 4525 6395 2    50   Input ~ 0
 D00
@@ -1668,50 +1668,30 @@ U 1 1 61F55EAF
 P 6975 1850
 F 0 "J4" H 7055 1842 50  0000 L CNN
 F 1 "e_i_01x10" H 6915 2380 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 6975 1850 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-G-3.5_1x10_P3.50mm_Horizontal" H 6975 1850 50  0001 C CNN
 F 3 "~" H 6975 1850 50  0001 C CNN
 	1    6975 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 6775 1450 0    50   Input ~ 0
-5v_1
-Text GLabel 6775 2350 0    50   Input ~ 0
-GND
-Text GLabel 6775 1550 0    50   Input ~ 0
-3v3
-Text GLabel 6775 1650 0    50   Input ~ 0
-jD27
-Text GLabel 6775 1750 0    50   Input ~ 0
-jD14
-Text GLabel 6775 1850 0    50   Input ~ 0
-jD12
-Text GLabel 6775 1950 0    50   Input ~ 0
-jD13
-Text GLabel 6775 2050 0    50   Input ~ 0
-jD15
-Text GLabel 6775 2150 0    50   Input ~ 0
-jD02
-Text GLabel 6775 2250 0    50   Input ~ 0
-jD00
-Text GLabel 5845 2050 0    50   Input ~ 0
-jA33
-Text GLabel 5845 1950 0    50   Input ~ 0
-jA32
-Text GLabel 5845 1550 0    50   Input ~ 0
-jA36
-Text GLabel 5845 1650 0    50   Input ~ 0
-jA39
 Text GLabel 5845 1750 0    50   Input ~ 0
-jA34
+jA33
 Text GLabel 5845 1850 0    50   Input ~ 0
-jA35
-Text GLabel 5845 2150 0    50   Input ~ 0
-jA25
+jA32
 Text GLabel 5845 2250 0    50   Input ~ 0
+jA36
+Text GLabel 5845 2150 0    50   Input ~ 0
+jA39
+Text GLabel 5845 2050 0    50   Input ~ 0
+jA34
+Text GLabel 5845 1950 0    50   Input ~ 0
+jA35
+Text GLabel 5845 1650 0    50   Input ~ 0
+jA25
+Text GLabel 5845 1550 0    50   Input ~ 0
 jA26
-Text GLabel 5845 1450 0    50   Input ~ 0
-3v3
 Text GLabel 5845 2350 0    50   Input ~ 0
+3v3
+Text GLabel 5845 1450 0    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_01x10 J3
@@ -1719,7 +1699,7 @@ U 1 1 61F5122B
 P 6045 1950
 F 0 "J3" H 6125 1942 50  0000 L CNN
 F 1 "a_i_01x10" H 5995 2480 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 6045 1950 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-G-3.5_1x10_P3.50mm_Horizontal" H 6045 1950 50  0001 C CNN
 F 3 "~" H 6045 1950 50  0001 C CNN
 	1    6045 1950
 	1    0    0    1   
@@ -1808,4 +1788,24 @@ F 3 "~" H 10250 2510 50  0001 C CNN
 	1    10250 2510
 	1    0    0    -1  
 $EndComp
+Text GLabel 6775 1550 0    50   Input ~ 0
+jD00
+Text GLabel 6775 1650 0    50   Input ~ 0
+jD02
+Text GLabel 6775 1750 0    50   Input ~ 0
+jD15
+Text GLabel 6775 1850 0    50   Input ~ 0
+jD13
+Text GLabel 6775 1950 0    50   Input ~ 0
+jD12
+Text GLabel 6775 2050 0    50   Input ~ 0
+jD14
+Text GLabel 6775 2150 0    50   Input ~ 0
+jD27
+Text GLabel 6775 2250 0    50   Input ~ 0
+3v3
+Text GLabel 6775 1450 0    50   Input ~ 0
+GND
+Text GLabel 6775 2350 0    50   Input ~ 0
+5v_1
 $EndSCHEMATC
