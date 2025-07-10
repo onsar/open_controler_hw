@@ -99,7 +99,7 @@ U 1 1 61F5122B
 P 3900 1770
 F 0 "J1" H 3980 1762 50  0000 L CNN
 F 1 "d_o_01x10" H 3850 2300 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 3900 1770 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-G-3.5_1x10_P3.50mm_Horizontal" H 3900 1770 50  0001 C CNN
 F 3 "~" H 3900 1770 50  0001 C CNN
 	1    3900 1770
 	1    0    0    1   
@@ -110,7 +110,7 @@ U 1 1 61F55EAF
 P 4830 1670
 F 0 "J2" H 4910 1662 50  0000 L CNN
 F 1 "d_i_01x10" H 4770 2200 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 4830 1670 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-G-3.5_1x10_P3.50mm_Horizontal" H 4830 1670 50  0001 C CNN
 F 3 "~" H 4830 1670 50  0001 C CNN
 	1    4830 1670
 	1    0    0    -1  
@@ -120,13 +120,13 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 622B6D5E
-P 2020 6750
-F 0 "J4" H 2100 6742 50  0000 L CNN
-F 1 "Conn_01x02" H 1650 6940 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 2020 6750 50  0001 C CNN
-F 3 "~" H 2020 6750 50  0001 C CNN
-	1    2020 6750
-	1    0    0    -1  
+P 2020 6850
+F 0 "J4" H 2100 6842 50  0000 L CNN
+F 1 "Conn_01x02" H 1650 7040 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 2020 6850 50  0001 C CNN
+F 3 "~" H 2020 6850 50  0001 C CNN
+	1    2020 6850
+	1    0    0    1   
 $EndComp
 Text GLabel 1820 6750 0    50   Input ~ 0
 5v
@@ -1140,42 +1140,26 @@ F 3 "~" H 8080 5830 50  0001 C CNN
 $EndComp
 Text GLabel 6170 1260 0    50   Input ~ 0
 GPIO_18
-Text GLabel 3700 1370 0    50   Input ~ 0
+Text GLabel 3700 2070 0    50   Input ~ 0
 do00
-Text GLabel 3700 1470 0    50   Input ~ 0
+Text GLabel 3700 1970 0    50   Input ~ 0
 do01
 Text GLabel 2890 4060 2    50   Input ~ 0
 do02
-Text GLabel 3700 1870 0    50   Input ~ 0
+Text GLabel 3700 1570 0    50   Input ~ 0
 do10
-Text GLabel 3700 2070 0    50   Input ~ 0
+Text GLabel 3700 1370 0    50   Input ~ 0
 do12
 Text GLabel 7890 4060 2    50   Input ~ 0
 do11
-Text GLabel 4630 1270 0    50   Input ~ 0
-di20
-Text GLabel 4630 1370 0    50   Input ~ 0
-di21
-Text GLabel 4630 1470 0    50   Input ~ 0
-di22
-Text GLabel 4630 1670 0    50   Input ~ 0
-di30
-Text GLabel 4630 1870 0    50   Input ~ 0
-di32
-Text GLabel 4630 1770 0    50   Input ~ 0
-di31
-Text GLabel 3700 1270 0    50   Input ~ 0
-vo0
-Text GLabel 3700 1670 0    50   Input ~ 0
-go0
-Text GLabel 3700 1770 0    50   Input ~ 0
-vo1
 Text GLabel 3700 2170 0    50   Input ~ 0
+vo0
+Text GLabel 3700 1770 0    50   Input ~ 0
+go0
+Text GLabel 3700 1670 0    50   Input ~ 0
+vo1
+Text GLabel 3700 1270 0    50   Input ~ 0
 go1
-Text GLabel 4630 1570 0    50   Input ~ 0
-gi2
-Text GLabel 4630 1970 0    50   Input ~ 0
-gi3
 Text GLabel 1210 3420 0    50   Input ~ 0
 GPIO_23
 Text GLabel 3730 3420 0    50   Input ~ 0
@@ -1213,9 +1197,9 @@ Wire Wire Line
 	10190 4060 10340 4060
 Connection ~ 7740 4060
 Connection ~ 10190 4060
-Text GLabel 3700 1570 0    50   Input ~ 0
+Text GLabel 3700 1870 0    50   Input ~ 0
 do02
-Text GLabel 3700 1970 0    50   Input ~ 0
+Text GLabel 3700 1470 0    50   Input ~ 0
 do11
 Text GLabel 10340 4060 2    50   Input ~ 0
 do12
@@ -1269,10 +1253,6 @@ Text GLabel 8740 5680 2    50   Input ~ 0
 gi3
 Text GLabel 7080 5680 2    50   Input ~ 0
 gi3
-Text GLabel 4630 2070 0    50   Input ~ 0
-5v_1
-Text GLabel 4630 2170 0    50   Input ~ 0
-GND_1
 $Comp
 L Device:D_Schottky D1
 U 1 1 62D7C569
@@ -1715,7 +1695,7 @@ U 1 1 61D21F67
 P 1560 1710
 F 0 "J3" H 1610 2827 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 1610 2736 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 1560 1710 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 1560 1710 50  0001 C CNN
 F 3 "~" H 1560 1710 50  0001 C CNN
 	1    1560 1710
 	1    0    0    -1  
@@ -1850,4 +1830,24 @@ Connection ~ 8680 5680
 Wire Wire Line
 	10350 5680 10410 5680
 Connection ~ 10350 5680
+Text GLabel 4630 1270 0    50   Input ~ 0
+GND_1
+Text GLabel 4630 1370 0    50   Input ~ 0
+5v_1
+Text GLabel 4630 1470 0    50   Input ~ 0
+gi3
+Text GLabel 4630 1870 0    50   Input ~ 0
+gi2
+Text GLabel 4630 1670 0    50   Input ~ 0
+di31
+Text GLabel 4630 1570 0    50   Input ~ 0
+di32
+Text GLabel 4630 1770 0    50   Input ~ 0
+di30
+Text GLabel 4630 1970 0    50   Input ~ 0
+di22
+Text GLabel 4630 2070 0    50   Input ~ 0
+di21
+Text GLabel 4630 2170 0    50   Input ~ 0
+di20
 $EndSCHEMATC

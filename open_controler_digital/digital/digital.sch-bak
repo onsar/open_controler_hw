@@ -99,7 +99,7 @@ U 1 1 61F5122B
 P 3900 1770
 F 0 "J1" H 3980 1762 50  0000 L CNN
 F 1 "d_o_01x10" H 3850 2300 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 3900 1770 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-G-3.5_1x10_P3.50mm_Horizontal" H 3900 1770 50  0001 C CNN
 F 3 "~" H 3900 1770 50  0001 C CNN
 	1    3900 1770
 	1    0    0    1   
@@ -110,7 +110,7 @@ U 1 1 61F55EAF
 P 4830 1670
 F 0 "J2" H 4910 1662 50  0000 L CNN
 F 1 "d_i_01x10" H 4770 2200 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.5_1x10_P3.50mm_Vertical" H 4830 1670 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-G-3.5_1x10_P3.50mm_Horizontal" H 4830 1670 50  0001 C CNN
 F 3 "~" H 4830 1670 50  0001 C CNN
 	1    4830 1670
 	1    0    0    -1  
@@ -120,13 +120,13 @@ Wire Notes Line
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 622B6D5E
-P 2020 6750
-F 0 "J4" H 2100 6742 50  0000 L CNN
-F 1 "Conn_01x02" H 1650 6940 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 2020 6750 50  0001 C CNN
-F 3 "~" H 2020 6750 50  0001 C CNN
-	1    2020 6750
-	1    0    0    -1  
+P 2020 6850
+F 0 "J4" H 2100 6842 50  0000 L CNN
+F 1 "Conn_01x02" H 1650 7040 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" H 2020 6850 50  0001 C CNN
+F 3 "~" H 2020 6850 50  0001 C CNN
+	1    2020 6850
+	1    0    0    1   
 $EndComp
 Text GLabel 1820 6750 0    50   Input ~ 0
 5v
@@ -212,7 +212,7 @@ L Device:C C1
 U 1 1 62C6956F
 P 7700 2050
 F 0 "C1" H 7815 2096 50  0000 L CNN
-F 1 "C" H 7815 2005 50  0000 L CNN
+F 1 "10" H 7815 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7738 1900 50  0001 C CNN
 F 3 "~" H 7700 2050 50  0001 C CNN
 	1    7700 2050
@@ -265,7 +265,7 @@ L Transistor_FET:VP0610T Q3
 U 1 1 62C6959C
 P 7360 1700
 F 0 "Q3" H 7565 1746 50  0000 L CNN
-F 1 "VP0610T" H 7565 1655 50  0000 L CNN
+F 1 "JM" H 7565 1655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7560 1625 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 7360 1700 50  0001 L CNN
 	1    7360 1700
@@ -367,7 +367,7 @@ L Device:C C3
 U 1 1 62E2CD90
 P 2740 4210
 F 0 "C3" H 2855 4256 50  0000 L CNN
-F 1 "C" H 2855 4165 50  0000 L CNN
+F 1 "10" H 2855 4165 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2778 4060 50  0001 C CNN
 F 3 "~" H 2740 4210 50  0001 C CNN
 	1    2740 4210
@@ -420,7 +420,7 @@ L Transistor_FET:VP0610T Q9
 U 1 1 62E2CDB1
 P 2400 3860
 F 0 "Q9" H 2605 3906 50  0000 L CNN
-F 1 "VP0610T" H 2605 3815 50  0000 L CNN
+F 1 "JM" H 2605 3815 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 3785 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 2400 3860 50  0001 L CNN
 	1    2400 3860
@@ -564,7 +564,7 @@ L Transistor_FET:VP0610T Q10
 U 1 1 62E2CE06
 P 4920 3860
 F 0 "Q10" H 5125 3906 50  0000 L CNN
-F 1 "VP0610T" H 5125 3815 50  0000 L CNN
+F 1 "JM" H 5125 3815 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5120 3785 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 4920 3860 50  0001 L CNN
 	1    4920 3860
@@ -628,7 +628,7 @@ L Device:C C4
 U 1 1 62E2CDDF
 P 5260 4210
 F 0 "C4" H 5375 4256 50  0000 L CNN
-F 1 "C" H 5375 4165 50  0000 L CNN
+F 1 "10" H 5375 4165 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5298 4060 50  0001 C CNN
 F 3 "~" H 5260 4210 50  0001 C CNN
 	1    5260 4210
@@ -706,7 +706,7 @@ L Transistor_FET:VP0610T Q11
 U 1 1 62E2CD0D
 P 7400 3860
 F 0 "Q11" H 7605 3906 50  0000 L CNN
-F 1 "VP0610T" H 7605 3815 50  0000 L CNN
+F 1 "JM" H 7605 3815 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 3785 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 7400 3860 50  0001 L CNN
 	1    7400 3860
@@ -770,7 +770,7 @@ L Device:C C5
 U 1 1 62E2CCE6
 P 7740 4210
 F 0 "C5" H 7855 4256 50  0000 L CNN
-F 1 "C" H 7855 4165 50  0000 L CNN
+F 1 "10" H 7855 4165 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7778 4060 50  0001 C CNN
 F 3 "~" H 7740 4210 50  0001 C CNN
 	1    7740 4210
@@ -861,7 +861,7 @@ L Transistor_FET:VP0610T Q12
 U 1 1 62AF02AD
 P 9850 3860
 F 0 "Q12" H 10055 3906 50  0000 L CNN
-F 1 "VP0610T" H 10055 3815 50  0000 L CNN
+F 1 "JM" H 10055 3815 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 3785 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 9850 3860 50  0001 L CNN
 	1    9850 3860
@@ -925,7 +925,7 @@ L Device:C C6
 U 1 1 626EFDE8
 P 10190 4210
 F 0 "C6" H 10305 4256 50  0000 L CNN
-F 1 "C" H 10305 4165 50  0000 L CNN
+F 1 "10" H 10305 4165 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10228 4060 50  0001 C CNN
 F 3 "~" H 10190 4210 50  0001 C CNN
 	1    10190 4210
@@ -1140,42 +1140,26 @@ F 3 "~" H 8080 5830 50  0001 C CNN
 $EndComp
 Text GLabel 6170 1260 0    50   Input ~ 0
 GPIO_18
-Text GLabel 3700 1370 0    50   Input ~ 0
+Text GLabel 3700 2070 0    50   Input ~ 0
 do00
-Text GLabel 3700 1470 0    50   Input ~ 0
+Text GLabel 3700 1970 0    50   Input ~ 0
 do01
 Text GLabel 2890 4060 2    50   Input ~ 0
 do02
-Text GLabel 3700 1870 0    50   Input ~ 0
+Text GLabel 3700 1570 0    50   Input ~ 0
 do10
-Text GLabel 3700 2070 0    50   Input ~ 0
+Text GLabel 3700 1370 0    50   Input ~ 0
 do12
 Text GLabel 7890 4060 2    50   Input ~ 0
 do11
-Text GLabel 4630 1270 0    50   Input ~ 0
-di20
-Text GLabel 4630 1370 0    50   Input ~ 0
-di21
-Text GLabel 4630 1470 0    50   Input ~ 0
-di22
-Text GLabel 4630 1670 0    50   Input ~ 0
-di30
-Text GLabel 4630 1870 0    50   Input ~ 0
-di32
-Text GLabel 4630 1770 0    50   Input ~ 0
-di31
-Text GLabel 3700 1270 0    50   Input ~ 0
-vo0
-Text GLabel 3700 1670 0    50   Input ~ 0
-go0
-Text GLabel 3700 1770 0    50   Input ~ 0
-vo1
 Text GLabel 3700 2170 0    50   Input ~ 0
+vo0
+Text GLabel 3700 1770 0    50   Input ~ 0
+go0
+Text GLabel 3700 1670 0    50   Input ~ 0
+vo1
+Text GLabel 3700 1270 0    50   Input ~ 0
 go1
-Text GLabel 4630 1570 0    50   Input ~ 0
-gi2
-Text GLabel 4630 1970 0    50   Input ~ 0
-gi3
 Text GLabel 1210 3420 0    50   Input ~ 0
 GPIO_23
 Text GLabel 3730 3420 0    50   Input ~ 0
@@ -1213,9 +1197,9 @@ Wire Wire Line
 	10190 4060 10340 4060
 Connection ~ 7740 4060
 Connection ~ 10190 4060
-Text GLabel 3700 1570 0    50   Input ~ 0
+Text GLabel 3700 1870 0    50   Input ~ 0
 do02
-Text GLabel 3700 1970 0    50   Input ~ 0
+Text GLabel 3700 1470 0    50   Input ~ 0
 do11
 Text GLabel 10340 4060 2    50   Input ~ 0
 do12
@@ -1269,10 +1253,6 @@ Text GLabel 8740 5680 2    50   Input ~ 0
 gi3
 Text GLabel 7080 5680 2    50   Input ~ 0
 gi3
-Text GLabel 4630 2070 0    50   Input ~ 0
-5v_1
-Text GLabel 4630 2170 0    50   Input ~ 0
-GND_1
 $Comp
 L Device:D_Schottky D1
 U 1 1 62D7C569
@@ -1558,7 +1538,7 @@ L Device:C C2
 U 1 1 62DEEDE3
 P 10230 2050
 F 0 "C2" H 10345 2096 50  0000 L CNN
-F 1 "C" H 10345 2005 50  0000 L CNN
+F 1 "10" H 10345 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10268 1900 50  0001 C CNN
 F 3 "~" H 10230 2050 50  0001 C CNN
 	1    10230 2050
@@ -1611,7 +1591,7 @@ L Transistor_FET:VP0610T Q4
 U 1 1 62DEEE00
 P 9890 1700
 F 0 "Q4" H 10095 1746 50  0000 L CNN
-F 1 "VP0610T" H 10095 1655 50  0000 L CNN
+F 1 "JM" H 10095 1655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10090 1625 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/70209/70209.pdf" H 9890 1700 50  0001 L CNN
 	1    9890 1700
@@ -1680,7 +1660,7 @@ L Device:C C7
 U 1 1 62EF3CBB
 P 2560 6880
 F 0 "C7" H 2675 6926 50  0000 L CNN
-F 1 "C" H 2675 6835 50  0000 L CNN
+F 1 "10" H 2675 6835 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2598 6730 50  0001 C CNN
 F 3 "~" H 2560 6880 50  0001 C CNN
 	1    2560 6880
@@ -1850,4 +1830,24 @@ Connection ~ 8680 5680
 Wire Wire Line
 	10350 5680 10410 5680
 Connection ~ 10350 5680
+Text GLabel 4630 1270 0    50   Input ~ 0
+GND_1
+Text GLabel 4630 1370 0    50   Input ~ 0
+5v_1
+Text GLabel 4630 1470 0    50   Input ~ 0
+gi3
+Text GLabel 4630 1870 0    50   Input ~ 0
+gi2
+Text GLabel 4630 1670 0    50   Input ~ 0
+di31
+Text GLabel 4630 1570 0    50   Input ~ 0
+di32
+Text GLabel 4630 1770 0    50   Input ~ 0
+di30
+Text GLabel 4630 1970 0    50   Input ~ 0
+di22
+Text GLabel 4630 2070 0    50   Input ~ 0
+di21
+Text GLabel 4630 2170 0    50   Input ~ 0
+di20
 $EndSCHEMATC
